@@ -1,58 +1,315 @@
-<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  --><!--  Last Published: Sun May 29 2022 19:21:21 GMT+0000 (Coordinated Universal Time)  --><html data-wf-page="628f2af448ea6a758804ed12" data-wf-site="628f2af448ea6a315404ed11"><head><meta charset="utf-8"><title>Tavolata Diplomarbeit</title><meta content="width=device-width, initial-scale=1" name="viewport"><meta content="Webflow" name="generator"><link href="css/normalize.css" rel="stylesheet" type="text/css"><link href="css/webflow.css" rel="stylesheet" type="text/css"><link href="css/tavolata-diplomarbeit.webflow.css" rel="stylesheet" type="text/css"><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Vollkorn:400,400italic,700,700italic","Nunito:regular,700:latin,latin-ext"]  }});</script><!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] --><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon"><link href="images/webclip.png" rel="apple-touch-icon"></head><body class="body"><div class="overflow"><div class="font-scale-code wf-section"><div class="w-embed"><style>
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Thu Jun 16 2022 17:37:31 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="62a5fc524e93a65def2c6624" data-wf-site="628f2af448ea6a315404ed11">
+<head>
+  <meta charset="utf-8">
+  <title>Tavolata</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/tavolata.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Vollkorn:400,400italic,700,700italic","Nunito:regular,700:latin,latin-ext"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+<body data-scroll-time="0.75" class="body">
+  <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-no-scroll="1" role="banner" class="navbar w-nav">
+    <div class="navigation-container mobile active">
+      <a href="#top" class="brand w-nav-brand">
+        <div class="navigation-logo"><img src="images/logo-tavolata.svg" loading="lazy" alt="Tavolata Logo" class="image-vertical"></div>
+      </a>
+      <nav role="navigation" class="nav-menu mobile w-nav-menu">
+        <a href="#01-einleitung" class="nav-item mobile w-nav-link">Einleitung</a>
+        <a href="#02-user-research" class="nav-item mobile w-nav-link">User Research</a>
+        <a href="#03-konzeption" class="nav-item mobile w-nav-link">Konzeption</a>
+        <a href="#04-designprozess" class="nav-item mobile w-nav-link">Designprozess</a>
+        <a href="#05-tavolata-app" class="nav-item mobile w-nav-link">Tavolata App</a>
+        <a href="#06-about" class="nav-item mobile w-nav-link">About</a>
+      </nav>
+      <div class="menu-button w-nav-button"><img src="images/navigation-burger.svg" loading="lazy" alt="" class="image-105"></div>
+    </div>
+  </div>
+  <div class="font-scale-code wf-section">
+    <div class="w-embed">
+      <style>
 .font-600-xxl, .w-richtext h1:not([class]) {
 font-size: calc(1.4em + 3vw)!important;
 }
 .font-500-xl, .w-richtext h2:not([class]) {
-font-size: calc(1.3em + 2.5vw)!important;
+font-size: calc(1.3em + 1.5vw)!important;
 }
 .font-400-l, .w-richtext h3:not([class]) {
-font-size: calc(1.2em + 1.5vw)!important;
+font-size: calc(1.2em + 0.8vw)!important;
 }
 .font-300-m, .w-richtext h4:not([class])  {
-font-size: calc(1.1em + 1.2vw)!important;
+font-size: calc(1.1em + 0.4vw)!important;
 }
 .font-200-s, .w-richtext h5:not([class])  {
-font-size: calc(1.0em + 0.4vw)!important;
+font-size: calc(1.0em + 0.3vw)!important;
 }
 .font-100-xs, .w-richtext h6:not([class]) {
 font-size: calc(0.8em + 0.2vw)!important;
 }
 </style>
-<style>
+      <style>
 @media only screen and (min-width: 1440px) {
-     .type-scale-wrapper {font-size: 1em;}
+     .font-600-xxl, .w-richtext h1:not([class]) {
+			font-size: 72px!important;}
 }
-</style></div></div><div class="global"><nav class="navigation is--nav"><div class="menu"><div class="background"><div class="background__fill"></div><div class="background__lottie" data-w-id="2c27d417-c035-4cf5-1483-661e4d2aca2b" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/628f29b039c30fffc20b7c22/628f29b039c30f6c250b7c3c_menu-wave.json" data-loop="0" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="1.5666666666666667" data-duration="0"></div></div><div class="container-navigation is--menu"><div class="menu__contain"><div class="menu__left"><a href="https://wizardry-technique.webflow.io/" target="_blank" class="nav-link w-inline-block"><img src="images/new-wizardry.gif" loading="lazy" alt="" class="nav-link__img"><div class="nav-link__line"></div><div class="nav-link__contain"><p class="nav-link__text">Wizardry</p><p class="nav-link__num">01</p></div></a><a href="https://www.patreon.com/timothyricks" target="_blank" class="nav-link w-inline-block"><img src="images/new-patreon.gif" loading="lazy" alt="" class="nav-link__img"><div class="nav-link__line"></div><div class="nav-link__contain"><p class="nav-link__text">Patreon</p><p class="nav-link__num">02</p></div></a><a href="http://www.youtube.com/c/timothy-ricks" target="_blank" class="nav-link w-inline-block"><img src="images/new-youtube.gif" loading="lazy" alt="" class="nav-link__img"><div class="nav-link__line"></div><div class="nav-link__contain"><p class="nav-link__text">YouTube</p><p class="nav-link__num">03</p></div></a></div></div></div></div><div class="container-navigation is--nav"><a href="#" class="nav__logo w-inline-block"><div class="nav__svg w-embed"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 107 20" enable-background="new 0 0 107 24" xml:space="preserve">
-<g>
-	<path fill="currentColor" d="M15.7 3.2C15.6 2.4 15.6 1.7 15.6 1C15 1 14.3 1 13.6 1.1C12.9 1.1 12 1.1 11.1 1.1C10.2 1.1 9.2 1.1 8.1 1.1C6.9 1.1 5.9 1.1 5 1.1C4.1 1.1 3.3 1.1 2.6 1.1C1.8 1 1.2 1 0.6 1C0.6 1.7 0.5 2.4 0.4 3.3C0.3 4.2 0.2 5 0 5.7C0.3 5.8 0.6 5.9 1 6C1.3 6 1.7 6 2 6C2.2 5.3 2.4 4.7 2.6 4.2C2.8 3.7 3.2 3.3 3.6 3.1C4 2.8 4.6 2.7 5.4 2.7H6V14.8C6 15.5 5.9 16 5.8 16.4C5.7 16.8 5.4 17 5.1 17.2C4.7 17.3 4.2 17.4 3.6 17.5C3.5 17.7 3.5 17.9 3.4 18.2C3.4 18.5 3.3 18.8 3.3 19.1C3.7 19.1 4.1 19.1 4.7 19C5.2 19 5.8 19 6.4 19C7 19 7.6 19 8.2 19C9.1 19 9.9 19 10.6 19C11.4 19 12 19 12.5 19.1C12.5 18.8 12.5 18.5 12.4 18.2C12.4 17.9 12.3 17.7 12.2 17.5C11.5 17.5 11.1 17.4 10.7 17.2C10.4 17.1 10.1 16.8 10 16.4C9.9 16 9.8 15.5 9.8 14.8V2.7H11C12 2.7 12.7 3 13.1 3.5C13.5 4 13.8 4.9 13.9 6C14.3 6 14.7 6 15 5.9C15.4 5.8 15.7 5.7 16 5.6C15.9 4.8 15.8 4 15.7 3.2ZM26.6 15.9C26.5 15.6 26.5 15.1 26.5 14.6V12.3C26.5 11.1 26.4 10.1 26.2 9.5C26 8.8 25.7 8.3 25.4 7.9C25 7.5 24.6 7.2 23.9 7C23.3 6.8 22.5 6.6 21.5 6.6C20.7 6.6 19.7 6.7 18.8 6.9C17.8 7.1 17 7.4 16.3 7.7C16.4 8.2 16.5 8.8 16.5 9.3C16.5 9.8 16.5 10.4 16.5 10.8C16.8 10.9 17.1 11 17.5 11C17.9 11 18.3 11.1 18.7 11.1C18.7 10.6 18.8 10.2 19 9.7C19.1 9.2 19.4 8.9 19.6 8.6C19.9 8.3 20.3 8.1 20.8 8.1C21.1 8.1 21.3 8.2 21.6 8.3C21.9 8.4 22.1 8.6 22.3 8.8C22.5 9 22.6 9.2 22.7 9.4C22.8 9.6 22.8 9.9 22.9 10.3C22.9 10.6 23 11.1 23 11.6C22.4 11.7 21.8 11.8 21.1 11.9C20.4 12 19.8 12.2 19.1 12.4C18.4 12.6 17.9 12.9 17.3 13.2C16.8 13.5 16.3 14 16 14.4C15.7 14.9 15.5 15.5 15.5 16.1C15.5 17.1 15.8 17.8 16.5 18.3C17.2 18.8 18.1 19.1 19.3 19.1C20 19.1 20.6 19 21.1 18.9C21.6 18.7 22 18.5 22.4 18.2C22.7 18 23 17.6 23.2 17.3C23.3 17.1 23.5 16.8 23.6 16.5C23.6 16.6 23.5 16.8 23.5 16.9C23.5 17.2 23.4 17.4 23.4 17.6C23.4 18 23.5 18.4 23.6 18.6C23.7 18.8 23.9 19 24.2 19.1C24.8 18.8 25.4 18.6 26.1 18.5C26.8 18.3 27.5 18.3 28.1 18.2C28.2 18 28.3 17.7 28.3 17.4C28.3 17.1 28.3 16.8 28.3 16.5C27.8 16.5 27.5 16.4 27.3 16.3C26.8 16.4 26.7 16.2 26.6 15.9ZM22.7 13.7C22.7 14.4 22.6 15.1 22.3 15.5C22.1 16 21.8 16.3 21.4 16.6C21 16.8 20.7 16.9 20.3 16.9C20 16.9 19.7 16.8 19.4 16.6C19.2 16.4 19 16 19 15.5C19 15.1 19.1 14.8 19.3 14.5C19.5 14.2 19.7 14 20 13.8C20.3 13.6 20.7 13.4 21.2 13.3C21.7 13.2 22.1 13.1 22.7 13V13.7ZM39.3 6.9C38.8 6.9 38.4 6.9 37.9 6.9C37.5 6.9 37.1 6.9 36.7 6.8C36.7 7.1 36.7 7.3 36.8 7.6C36.9 7.9 36.9 8.2 37 8.4C37.6 8.5 38 8.6 38.1 9C38.3 9.3 38.2 9.9 37.8 10.8C37.4 11.6 37.1 12.5 36.7 13.3C36.5 13.9 36.2 14.6 35.9 15.3C35.8 15.1 35.7 14.8 35.7 14.6C35.5 14 35.3 13.5 35 12.9C34.8 12.4 34.6 11.8 34.4 11.4C34.2 10.9 34 10.5 33.8 10.2C33.5 9.5 33.4 9.1 33.5 8.9C33.6 8.7 34 8.5 34.8 8.4C35 8.2 35 7.9 35.1 7.6C35.2 7.3 35.2 7 35.2 6.8C34.9 6.8 34.6 6.8 34.1 6.9C33.7 6.9 33.2 6.9 32.7 6.9C32.2 6.9 31.7 6.9 31.3 6.9C30.6 6.9 29.9 6.9 29.3 6.9C28.7 6.9 28.2 6.9 27.8 6.8C27.8 7.1 27.8 7.4 27.9 7.7C28 8 28 8.2 28.1 8.4C28.3 8.4 28.5 8.5 28.7 8.6C28.9 8.7 29 8.8 29.2 9.1C29.4 9.3 29.5 9.6 29.7 10.1C29.9 10.4 30.1 10.9 30.4 11.5C30.7 12.1 31 12.7 31.3 13.4C31.6 14.1 32 14.8 32.3 15.5C32.6 16.2 32.9 16.9 33.2 17.6C33.5 18.3 33.7 18.8 33.9 19.3C34.3 19.3 34.7 19.3 35.1 19.2C35.5 19.1 35.8 19.1 36.1 18.9L39.8 10.7C40 10.2 40.2 9.7 40.4 9.4C40.6 9.1 40.8 8.9 41 8.7C41.2 8.5 41.5 8.4 41.7 8.4C41.8 8.2 41.9 8 41.9 7.7C42 7.4 42 7.1 42 6.8C41.6 6.8 41.2 6.8 40.8 6.9C40.2 6.9 39.7 6.9 39.3 6.9ZM52.5 7.4C51.5 6.9 50.3 6.6 48.9 6.6C47.6 6.6 46.5 6.9 45.5 7.4C44.5 7.9 43.7 8.6 43.1 9.6C42.5 10.6 42.2 11.7 42.2 13.1C42.2 14.4 42.4 15.5 42.9 16.4C43.4 17.3 44.2 18 45.2 18.5C46.2 19 47.4 19.2 48.8 19.2C50.2 19.2 51.4 18.9 52.4 18.4C53.4 17.9 54.2 17.1 54.7 16.2C55.2 15.2 55.5 14.1 55.5 12.8C55.5 11.6 55.2 10.5 54.7 9.6C54.3 8.7 53.5 8 52.5 7.4ZM51 16.4C50.6 17.2 50 17.6 49.1 17.6C48.5 17.6 47.9 17.4 47.5 16.9C47 16.4 46.7 15.8 46.4 15C46.2 14.2 46.1 13.3 46.1 12.2C46.1 11.1 46.3 10.1 46.7 9.3C47.1 8.5 47.7 8.1 48.6 8.1C49.1 8.1 49.7 8.3 50.1 8.7C50.6 9.1 50.9 9.7 51.2 10.5C51.5 11.3 51.6 12.2 51.6 13.4C51.6 14.6 51.4 15.6 51 16.4ZM64 17.5C63.3 17.5 62.9 17.3 62.7 17C62.5 16.7 62.4 16.1 62.4 15.2V1.4C62.4 1 62.3 0.7 62.2 0.5C62.1 0.3 61.9 0.1 61.6 0C61.4 0.1 61 0.3 60.5 0.4C60 0.5 59.4 0.6 58.8 0.7C58.2 0.8 57.6 0.8 57 0.8C56.9 1 56.8 1.3 56.8 1.5C56.8 1.7 56.7 2 56.7 2.3C57.2 2.3 57.7 2.4 57.9 2.6C58.2 2.7 58.4 2.9 58.5 3.2C58.6 3.4 58.7 3.7 58.7 4.1V15.1C58.7 16 58.6 16.6 58.3 16.9C58.1 17.2 57.6 17.4 56.9 17.4C56.8 17.6 56.8 17.9 56.7 18.1C56.7 18.4 56.7 18.7 56.7 19C56.9 19 57.3 19 57.7 18.9C58.1 18.9 58.6 18.9 59.1 18.9C59.6 18.9 60.1 18.9 60.6 18.9C61.1 18.9 61.6 18.9 62 18.9C62.5 18.9 62.9 18.9 63.3 18.9C63.7 18.9 64.1 18.9 64.3 19C64.3 18.7 64.3 18.4 64.3 18.2C64.1 17.9 64 17.7 64 17.5ZM76.6 15.9C76.5 15.6 76.5 15.1 76.5 14.6V12.3C76.5 11.1 76.4 10.1 76.2 9.5C76 8.8 75.7 8.3 75.4 7.9C75 7.5 74.5 7.2 73.9 7C73.3 6.8 72.5 6.6 71.5 6.6C70.7 6.6 69.7 6.7 68.8 6.9C67.8 7.1 67 7.4 66.3 7.7C66.4 8.2 66.5 8.8 66.5 9.3C66.5 9.8 66.5 10.4 66.5 10.8C66.8 10.9 67.1 11 67.5 11C67.9 11 68.3 11.1 68.7 11.1C68.7 10.6 68.8 10.2 69 9.7C69.1 9.2 69.4 8.9 69.6 8.6C69.9 8.3 70.3 8.1 70.8 8.1C71.1 8.1 71.3 8.2 71.6 8.3C71.9 8.4 72.1 8.6 72.3 8.8C72.5 9 72.6 9.2 72.7 9.4C72.8 9.6 72.8 9.9 72.9 10.3C72.9 10.6 73 11.1 73 11.6C72.4 11.7 71.8 11.8 71.1 11.9C70.4 12 69.8 12.2 69.1 12.4C68.4 12.6 67.9 12.9 67.3 13.2C66.8 13.5 66.3 14 66 14.4C65.7 14.9 65.5 15.5 65.5 16.1C65.5 17.1 65.8 17.8 66.5 18.3C67.2 18.8 68.1 19.1 69.3 19.1C70 19.1 70.6 19 71.1 18.9C71.6 18.7 72 18.5 72.4 18.2C72.7 18 73 17.6 73.2 17.3C73.3 17.1 73.5 16.8 73.6 16.5C73.6 16.6 73.5 16.8 73.5 16.9C73.5 17.2 73.4 17.4 73.4 17.6C73.4 18 73.5 18.4 73.6 18.6C73.7 18.8 73.9 19 74.2 19.1C74.8 18.8 75.4 18.6 76.1 18.5C76.8 18.3 77.5 18.3 78.1 18.2C78.2 18 78.3 17.7 78.3 17.4C78.3 17.1 78.3 16.8 78.3 16.5C77.8 16.5 77.5 16.4 77.3 16.3C76.8 16.4 76.7 16.2 76.6 15.9ZM72.7 13.7C72.7 14.4 72.6 15.1 72.3 15.5C72.1 16 71.8 16.3 71.4 16.6C71 16.8 70.7 16.9 70.3 16.9C70 16.9 69.7 16.8 69.4 16.6C69.2 16.4 69 16 69 15.5C69 15.1 69.1 14.8 69.3 14.5C69.5 14.2 69.7 14 70 13.8C70.3 13.6 70.7 13.4 71.2 13.3C71.7 13.2 72.1 13.1 72.7 13V13.7ZM86.2 17.3C85.9 17.4 85.7 17.4 85.4 17.4C85.1 17.4 84.8 17.3 84.6 17.2C84.4 17 84.2 16.8 84.1 16.4C84 16 84 15.4 84 14.7V9.2C84.4 9.1 84.9 9 85.4 8.9C85.9 8.8 86.4 8.8 87 8.8C87.1 8.6 87.2 8.3 87.2 8C87.2 7.7 87.3 7.4 87.3 7.1H84V4.2C84 3.6 84 3.2 83.9 3C83.8 2.8 83.6 2.7 83.4 2.5C83 2.8 82.6 3.1 82 3.3C81.4 3.5 80.9 3.7 80.3 3.8V7.1H78.7C78.6 7.4 78.5 7.6 78.4 7.9C78.4 8.1 78.3 8.4 78.3 8.7C78.7 8.7 79.1 8.8 79.4 8.8C79.7 8.9 80 8.9 80.3 9V15C80.3 16.5 80.6 17.6 81.2 18.2C81.8 18.8 82.7 19.2 84 19.2C84.7 19.2 85.4 19.1 86 18.9C86.7 18.7 87.2 18.5 87.5 18.2C87.5 17.7 87.3 17.2 87.1 16.9C86.8 17.1 86.5 17.2 86.2 17.3ZM100.1 16.5C99.9 16.4 99.7 16.2 99.7 15.9C99.6 15.6 99.6 15.1 99.6 14.6V12.3C99.6 11.1 99.5 10.1 99.3 9.5C99.1 8.8 98.8 8.3 98.5 7.9C98.1 7.5 97.6 7.2 97 7C96.4 6.8 95.6 6.6 94.6 6.6C93.8 6.6 92.8 6.7 91.9 6.9C90.9 7.1 90.1 7.4 89.4 7.7C89.5 8.2 89.6 8.8 89.6 9.3C89.6 9.8 89.6 10.4 89.6 10.8C89.9 10.9 90.2 11 90.6 11C91 11 91.4 11.1 91.8 11.1C91.8 10.6 91.9 10.2 92.1 9.7C92.2 9.2 92.5 8.9 92.7 8.6C93 8.3 93.4 8.1 93.9 8.1C94.2 8.1 94.4 8.2 94.7 8.3C95 8.4 95.2 8.6 95.4 8.8C95.6 9 95.7 9.2 95.8 9.4C95.9 9.6 95.9 9.9 96 10.3C96 10.6 96.1 11.1 96.1 11.6C95.5 11.7 94.9 11.8 94.2 11.9C93.5 12 92.9 12.2 92.2 12.4C91.5 12.6 91 12.9 90.4 13.2C89.9 13.5 89.4 14 89.1 14.4C88.8 14.9 88.6 15.5 88.6 16.1C88.6 17.1 88.9 17.8 89.6 18.3C90.3 18.8 91.2 19.1 92.4 19.1C93.1 19.1 93.7 19 94.2 18.9C94.7 18.7 95.1 18.5 95.5 18.2C95.8 18 96.1 17.6 96.3 17.3C96.4 17.1 96.6 16.8 96.7 16.5C96.7 16.6 96.6 16.8 96.6 16.9C96.6 17.2 96.5 17.4 96.5 17.6C96.5 18 96.6 18.4 96.7 18.6C96.8 18.8 97 19 97.3 19.1C97.9 18.8 98.5 18.6 99.2 18.5C99.9 18.3 100.6 18.3 101.2 18.2C101.3 18 101.4 17.7 101.4 17.4C101.4 17.1 101.4 16.8 101.4 16.5C100.7 16.7 100.3 16.6 100.1 16.5ZM95.8 13.7C95.8 14.4 95.7 15.1 95.4 15.5C95.2 16 94.9 16.3 94.5 16.6C94.1 16.8 93.8 16.9 93.4 16.9C93.1 16.9 92.8 16.8 92.5 16.6C92.3 16.4 92.1 16 92.1 15.5C92.1 15.1 92.2 14.8 92.4 14.5C92.6 14.2 92.8 14 93.1 13.8C93.4 13.6 93.8 13.4 94.3 13.3C94.8 13.2 95.2 13.1 95.8 13V13.7Z"></path>
-</g>
-</svg></div></a><div class="container-flex centered"><h2 class="font-basic-text no-margin">Kapitel 1</h2><div class="kreis"></div><h2 class="font-basic-text bold no-margin">Kapitel 1</h2></div><a href="#" class="trigger w-inline-block"><div class="trigger__line is--1"></div><div class="trigger__line is--2"></div></a></div></nav><div id="top" class="html w-embed"><style>
-@media only screen and (min-width: 2000px) {
-     body {font-size: 20px;}
-}
-.trigger__circle, .cursor, .slider__wave {
-	pointer-events: none;
-}
-a {
-	color: inherit;
-}
-.slider__wave svg path {
-	pointer-events: auto;
-}
-body:hover .cursor {
-	opacity: 1.0;
-}
-.control {
-	-webkit-mask-image: -webkit-radial-gradient(white, black);
-}
-</style></div></div><div class="section hero"><div class="container-margin"><div class="grid _2row"><div id="w-node-_46fdccc0-ce27-8516-e9fd-9a4e59fa8ac1-8804ed12" class="hero"><h2 class="font-hero-title">«Trotz Digitalisierung fühlt sich jeder dritte Mensch in der Schweiz ‹manchmal› einsam.»</h2><h6 class="font-lead left-aligned">Dies berichtet das Schweizerische Gesundheitsobservatorium (Obsan) in ihrem 2020 veröffentlichten Bericht zur psychischen Gesundheit der Schweiz.</h6></div><div id="w-node-_18547b90-a42c-3029-fea5-7442fadb205c-8804ed12" class="image-container"><img src="images/fenster-blop.svg" loading="lazy" alt="" class="image-3"></div></div></div></div><div class="section"><div class="container kapitel-hero"><div class="container"><h2 class="font-400-l centered regular white">Kapitel 1</h2><h2 class="font-600-xxl white margin">Einleitung</h2></div><img src="images/willkommen.svg" loading="lazy" alt=""></div><div class="container-margin"><div class="grid"><div id="w-node-_85ace64b-2249-c15d-ff45-fac6ff32eef0-8804ed12" class="lauftext"><h2 class="font-400-l">Einsamkeit bei jungen Menschen</h2><div class="font-basic-text">Wenn über Einsamkeit gesprochen wird, denken wir häufig an ältere Menschen, die alleine Zuhause sitzen. Umso mehr war ich überrascht, als ich bei meiner Recherche herausfand, dass  junge Menschen am häufigsten von Einsamkeit betroffen sind. Rund 47 % der 15–34-Jährigen gaben laut Obsan an, sich einsam zu fühlen. Bei der Altersgruppe 65+ betrug der Wert gerade mal 32 %.</div><div class="font-basic-text-small grey"><strong>Qu1</strong> <a href="https://www.obsan.admin.ch/sites/default/files/obsan_15_2020_bericht_2.pdf" target="_blank" class="link">Obsan Bericht</a>, S.53, G3.8</div><div class="font-basic-text">Für ältere Menschen gibt es bereits viele Organisationen, wie beispielsweise <a href="https://www.prosenectute.ch/de.html" class="link">Pro Senectute</a> oder <a href="https://www.rentarentner.ch/v2/index.html" class="link">Rent a Rentner</a>, die sich dem Thema Einsamkeit annehmen. Für jüngere Menschen hält sich das Angebot, um gezielt neue Kontakte zu knüpfen, in Grenzen.</div><h2 class="font-400-l">Einsamkeit &amp; Corona</h2><div class="font-basic-text">Zusätzlich wurden bei uns allen aufgrund der Corona-Pandemie die sozialen Kontakte reduziert. Bei einer Umfrage der SRG 2021 gaben mehr als die hälfte der Befragten an, sich vor sozialer Isolation zu fürchten.</div><div class="font-basic-text-small grey"><strong>Qu2</strong> <a href="https://sotomo.ch/site/wp-content/uploads/2021/01/6.-SRG-Corona-Monitor.pdf" target="_blank" class="link">SRG Umfrage</a>, S.10</div><h2 class="font-400-l">Stigma Einsamkeit</h2><div class="font-basic-text">«Alleine die Worte ‹Ich fühle mich einsam.› zu sagen, fühlt sich für mich fast so an, als sei ich eine Versagerin.», sagte Debbie Brupacher in einem Interview für Swissinfo. Einsamkeit ist in der Schweiz ein Tabuthema, das niemand gerne anspricht.</div><div class="font-basic-text-small grey"><strong>Qu3</strong> <a href="https://stories.swissinfo.ch/einsamkeit-in-der-schweiz#222934" target="_blank" class="link">Swissinfo Interview</a></div></div></div><div class="grid"><div id="w-node-df6d73e4-ebfb-3532-5c22-2197b772caab-8804ed12" class="container-text"><h2 class="font-600-xxl orange left-aligned">«Ich glaube schon, dass viele junge unter Vereinzelung leiden.»</h2><div class="font-basic-text">Charlotte Gantenbein arbeitete 20 Jahre bei der dargebotenen Hand. Sie telefonierte und chattete täglich mit jungen Menschen, die sie auch aufgrund von Einsamkeitsgefühlen kontaktierten.</div><div class="soundcloud-widget w-embed w-iframe"><iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1276721932&color=%23ff7b00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-141214004" title="seratanin" target="_blank" style="color: #cccccc; text-decoration: none;">seratanin</a> · <a href="https://soundcloud.com/user-141214004/charlotte" title="Charlotte" target="_blank" style="color: #cccccc; text-decoration: none;">Charlotte</a></div></div></div><img src="images/charlotte.jpg" loading="lazy" id="w-node-b28c80ae-c6a5-b0ea-4299-81f4f6634aa4-8804ed12" sizes="(max-width: 479px) 10vw, (max-width: 767px) 4vw, (max-width: 991px) 3vw, 100vw" srcset="images/charlotte-p-500.jpeg 500w, images/charlotte-p-800.jpeg 800w, images/charlotte-p-1080.jpeg 1080w, images/charlotte.jpg 1280w" alt="" class="image-horizontal _100 rounded-corners"></div><div class="grid"><div id="w-node-_79d2266f-9e0f-899a-b0f6-2f2f49ef13a5-8804ed12" class="lauftext"><h2 class="font-400-l">Essen verbindet</h2><div class="font-basic-text">Essen ist eine kulturell wichtige und vor allem soziale Aktivität, der wir täglich nachgehen. <br>Bei privaten Treffen habe ich wahrgenommen, dass sich Menschen, die zu einer unbekannten Gruppe stossen, ohne Beschäftigung sehr unwohl fühlen und so schnell zum Handy greifen, um beschäftigt zu wirken. Dies führt natürlich dazu, dass soziale Interaktionen vermieden werden und man noch weniger mit fremden Menschen in Kontakt kommt. <br>Sobald bei solchen Treffen Essen auf dem Tisch steht, ist die Stimmung gleich lockerer, denn jetzt hat man zumindest ein gemeinsames Gesprächsthema – das Essen. Gespräche werden angeregt, da man sich an einem Tisch gegenüber sitzt und in die Augen schaut. Wenn wir gemeinsam geniessen, entsteht eine Verbundenheit und vor allem ein Ort der Begegnung und des Austausches.</div><h2 class="font-400-l">Tavolata</h2><div class="font-basic-text">Bei einer italienischen Tavolata, zu deutsch «Tafelrunde», kommen Menschen an einem grossen Tisch zusammen, die ihre Zeit miteinander bei einem gemütlichen Essen geniessen wollen. Dabei werden klassisch verschiedenste Speisen in die Mitte der Tisches gestellt, die familiär miteinander geteilt werden. Eine Tavolata kann bei Gastgeber:innen zu Hause oder in einem Restaurant stattfinden. Die Idee der Tavolata läuft in der Gastro-Szene unter dem Namen «Sharing Dishes» und erfreut sich seit längerem grosser Beliebtheit.</div></div></div><div class="grid"><div id="w-node-c8575657-288b-5a64-71e5-e2a6b2e3abb5-8804ed12" class="image-box no-padding"><img src="images/iStock-903783156.jpg" loading="lazy" alt="" class="image-horizontal _100"></div></div><div class="grid"><div id="w-node-_281330ba-6124-9003-e50c-fc7f9a5ee75a-8804ed12" class="lauftext"><h2 class="font-400-l">Ziel meiner Diplomarbeit</h2><div class="font-basic-text">In meiner Diplomarbeit habe ich mich eingangs der Problemstellung der Einsamkeit gewidmet und mit Hilfe des Human Centered Design Prozesses eine mobile Applikation konzipiert, die besonders junge Menschen dabei unterstützt, sich mittels gemeinsamen Essen miteinander zu verbinden.</div><h2 class="font-400-l">Meine Motiviation</h2><div class="font-basic-text">Wenn ich mich mit Freunden treffe, gehe ich am liebsten auswärts essen. Ich fühle mich in dieser entspannten Atmosphäre wohl und geniesse die Gespräche, welche dabei entstehen. Essen bedeutet für mich geniessen und sich Zeit füreinander zu nehmen. Ausserdem empfinde ich einen Besuch im Restaurant als ein Erlebnis, dass mich immer wieder von neuem überrascht und trotzdem nicht zu weit ausserhalb meiner Komfortzone stattfindet.</div></div></div></div></div><div class="section"><div class="container kapitel-hero"><div class="container"><h2 class="font-400-l centered regular white">Kapitel 2</h2><h2 class="font-600-xxl white margin">User Research</h2></div><img src="images/user-research.svg" loading="lazy" alt=""></div><div class="container-margin"><div class="grid"><div id="w-node-_5bfa55ef-edcd-b8a9-8dd9-56c1eb1424a4-8804ed12" class="lauftext no-bottom-margin"><h2 class="font-400-l">Umfrage Einsamkeit</h2><div class="font-basic-text">Um eine objektivere Perspektive auf meine Problemstellung zu erhalten, führte ich eine quantitative Befragung durch, mit der ich Einblicke in die Gedanken von 102 Teilnehmer:innen zum Thema Einsamkeit erhalten konnte. Rund zwei drittel der Befragten waren zwischen 15–34 Jahre alt.</div><div class="infografik w-embed w-iframe w-script"><iframe title="Zu welcher Altersgruppe gehörst du?" aria-label="Torten-diagramm" id="datawrapper-chart-2g55D" src="https://datawrapper.dwcdn.net/2g55D/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="515"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script></div><h2 class="font-300-m">Häufigkeit</h2><div class="font-basic-text">Rund 60% der Befragten gaben an, sich Manchmal einsam zu fühlen, was mir die Rechercheergebnisse nochmals bestätigte.</div><div class="infografik w-embed w-iframe w-script"><iframe title="Wie häufig fühlst du dich einsam?" aria-label="Torten-diagramm" id="datawrapper-chart-NCBNu" src="https://datawrapper.dwcdn.net/NCBNu/11/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="515"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script></div><h2 class="font-300-m">Ursachen</h2><div class="font-basic-text">Die Gründe, warum sich die Befragen einsam fühlten, waren sehr divers, aber die Ursache hatte häufig mit Veränderungen der Äusseren Umstände zu tun. Beispielsweise Trennungen von Partner:innen, Umzug in eine neue Stadt oder auch Veränderungen im Freundeskreis selber wie z.B dass alle Freund:innen vergeben sind. Einige Antworten möchte ich gerne direkt zitieren.</div></div></div><div class="grid"><div id="w-node-d65bd5c3-4abb-4038-8d0c-1987f6fda94f-8804ed12" class="container-100 flex margin"><div class="container-quote margin"><div class="font-200-s orange">«Ausziehen aus dem Elternhaus, Trennung vom Partner»</div></div><div class="container-quote margin"><div class="font-200-s orange">«Änderung der privaten Situation (Studium) durch welche ich Personen, welche ich vorhin mehrmals wöchentlich sah, nicht mehr sehe plus Umzug des Partners.»</div></div><div class="container-quote"><div class="font-200-s orange">«Neu in der Gegend und noch keine sozialen Kontakte»</div></div></div></div><div class="grid"><div id="w-node-_5bfa55ef-edcd-b8a9-8dd9-56c1eb1424e7-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-300-m">Massnahmen</h2><div class="font-basic-text">Die wohl wichtigsten Antworten erhielt ich, als ich danach fragte, wie die Befragten mit der Einsamkeit umgehen. Einige der Antworten sind anschliessend zitiert.</div></div></div><div class="grid"><div id="w-node-_0f487668-825e-7462-817f-25081f1d4d71-8804ed12" class="container-100 flex margin"><div class="container-quote margin"><div class="font-200-s orange">«Menschen treffen, Zeit mit Freunden und Familie verbringen.»</div></div><div class="container-quote margin"><div class="font-200-s orange">«Das Sozialleben aktiv <strong>‹</strong>ankurbeln<strong>›</strong>, pläne machen, nachrichten schreiben, anrufen usw.»</div></div><div class="container-quote"><div class="font-200-s orange">«Freunde &amp; Familie, Sport, Ablenkung»</div></div></div></div><div class="grid"><div id="w-node-_56400931-3761-0451-c1bf-81e438355f3e-8804ed12" class="lauftext no-top-margin bottom-margin-2em"><div class="font-basic-text">Daraus schloss ich, dass die Mehrheit der Befragten aktiv etwas unternehmen, wenn sie sich manchmal einsam fühlen. Sie arrangieren Treffen, rufen Freund:innen oder Familie an oder versuchen sich anderweitig abzulenken.</div></div></div><div class="grid"><div id="w-node-_707eb4ef-e5e0-df6d-3b35-723a62979a80-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-300-m">Tavolata Bedürfnis</h2><div class="font-basic-text">Die Umfrage abschliessend habe ich noch zwei konkretere Fragen zum Thema «Mit fremden Personen gemeinsam Essen» gestellt. Erfreulicherweise können sich 85% der Befragten vorstellen, mit 6 unbekannten Personen einen Abend im Restaurant zu verbringen.</div><div class="infografik w-embed w-iframe w-script"><iframe title="Könntest du dir vorstellen, einen Abend im Restaurant zu verbringen, an einem Tisch mit 6 anderen Personen, die dich und die anderen nicht kennen?" aria-label="Balken" id="datawrapper-chart-8D1H7" src="https://datawrapper.dwcdn.net/8D1H7/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="151"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script></div><h2 class="font-300-m">Motivation User:innen</h2><div class="font-basic-text">Die Gründe, warum sie dies tun würden bezogen sich jedoch kaum auf das Gefühl der Einsamkeit sondern gingen eher aus der positiven Motivation und dem Interesse hervor, neue, spannende Leute kennenzulernen und vielleicht sogar jemanden zu finden, mit dem man sich gut versteht. Andere gaben als Grund auch an, so nicht alleine essen zu müssen.</div><div class="infografik w-embed w-iframe w-script"><iframe title="Aus welchen Gründen würdest du an einem solchen Abend teilnehmen?" aria-label="Balken" id="datawrapper-chart-L7Tsc" src="https://datawrapper.dwcdn.net/L7Tsc/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="209"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script></div><h2 class="font-300-m">Erwartungen</h2><div class="font-basic-text">Um ein Bild davon zu erhalten, was sich User:innen von einem solchen Abend wünschen, fragte ich nach ihren Erwartungen. Die Aussagen einzelner Teilnehmer:innen überschnitten sich stark. Zusammengefasst lässt sich sagen, dass die Befragten einen unterhaltsamen Abend mit interessanten Menschen und Gesprächen erwarten. Einige Antworten sind wieder nachfolgend zitiert.</div></div></div><div class="grid"><div id="w-node-a70aedc1-a6e8-6d15-e683-8de094c63577-8804ed12" class="container-100 flex margin"><div class="container-quote margin"><div class="font-200-s orange">«Ein spannendes Essen, neue Geschichten hören und wenns passt neue Freundschaft»</div></div><div class="container-quote margin"><div class="font-200-s orange">«Gute Unterhaltung, Essen und gegebenenfalls neue Bekanntschaften. Das ist aber nicht zwingend, um den Abend als Erfolg anzusehen.»</div></div><div class="container-quote"><div class="font-200-s orange">«Neue, interessante Bekanntschaften zu machen, etwas zu lernen, den Horizont zu erweitern, die Komfortzone zu verlassen»</div></div></div></div><div class="button-wrapper"><a href="documents/Umfrage_Einsamkeit_Ergebnisse.csv" class="button w-button">Daten Umfrage herunterladen</a></div><div class="grid"><div id="w-node-_5bfa55ef-edcd-b8a9-8dd9-56c1eb14250e-8804ed12" class="lauftext no-bottom-margin"><h2 class="font-400-l">Interviews</h2><div class="font-basic-text">Um mein Verständnis der Zielgruppe sowie dem ganzen Kosmos des gemeinsamen Essens zu vertiefen, führte ich unter anderem Interviews mit einer ehemaligen Mitarbeiterin der Dargebotenen Hand, einer Bumble Friends Userin, der Leiterin der Migros Tavolata Geschäftsstelle, einer privaten Tavolata Gruppe sowie einer Servicefachkraft eines Zürcher Restaurants. Die Interviews verhalfen mir zu folgenden Erkenntnissen, die meinem Projekt eine präzisere Fahrtrichtung vorgaben.</div><h2 class="font-300-m">Problem</h2><ul role="list" class="list"><li class="font-basic-text font-basic-text-list">Menschen, die sich sehr häufig einsam Fühlen leiden oftmals auch unter <strong>Psychischen Krankheiten</strong>. Diese kann ich mit meinem Produkt <strong>nicht</strong> <strong>lösen</strong>.</li><li class="font-basic-text font-basic-text-list">Zu den Problemen zählt auch, dass viele Menschen in gewissen Situationen <strong>nicht alleine essen</strong> wollen.</li></ul><h2 class="font-300-m">Zielgruppe</h2><ul role="list" class="list"><li class="font-basic-text font-basic-text-list">Mich auf die Zielgruppe <strong>«Einsame Menschen»</strong> zu fokussieren, ist nahezu unmöglich, da die Ursachen für Einsamkeit sehr unterschiedlich sind.</li><li class="font-basic-text font-basic-text-list">Zur Zielgruppe gehören vielmehr auch Personen, die ein <strong>Bedürfnis</strong> haben, mit <strong>neuen Menschen in Kontakt</strong> zu kommen.</li></ul><h2 class="font-300-m">Plattform</h2><ul role="list" class="list"><li class="font-basic-text font-basic-text-list">Menschen sind froh, wenn die Plattform einige <strong>Regeln</strong> vorgibt. So kann Verantwortung abgegeben werden.</li><li class="font-basic-text font-basic-text-list">Wenn es zwischenmenschlich harmoniert, wird von der Plattform schnell auf <strong>private Kommunikationskanäle</strong> (z.B. Whatsapp) gewechselt</li><li class="font-basic-text font-basic-text-list">Ein <strong>Treffen</strong> soll möglichst schnell <strong>vor Ort</strong> stattfinden. Wir brauchen physische soziale Interaktion, um uns mit jemandem zu verbinden.</li><li class="font-basic-text font-basic-text-list">Persönliche <strong>Texte &amp; Bilder</strong> sind wichtige Faktoren, bei der Entscheidung für eine Tavolata/Person.</li></ul></div></div><div class="grid"><div id="w-node-_5bfa55ef-edcd-b8a9-8dd9-56c1eb14251e-8804ed12" class="lauftext no-bottom-margin"><h2 class="font-400-l">Problem Redefinition &amp; Challenge</h2><div class="font-basic-text">Die Anforderungs Recherche abschliessend konkretisiere ich das grundsätzliche Problem einmal und erstellte das daraus resultierende Bedürfnis. Darauf aufbauend formulierte ich die Challenge, welche ich mit dieser Diplomarbeit lösen möchte.</div></div></div><div class="grid"><div id="w-node-_47dfe5d6-3536-c05f-4e05-70ab7ac38e1d-8804ed12" class="container-100 flex margin"><div class="container-icon-text margin error"><img src="images/error.svg" loading="lazy" alt="" class="icon _14 margin"><div class="font-200-s">«Ein spannendes Essen, neue Geschichten hören und wenns passt neue Freundschaft»</div></div><div class="container-icon-text margin warning"><img src="images/love.svg" loading="lazy" alt="" class="icon _14 margin"><div class="font-200-s">«Gute Unterhaltung, Essen und gegebenenfalls neue Bekanntschaften. Das ist aber nicht zwingend, um den Abend als Erfolg anzusehen.»</div></div><div class="container-icon-text success"><img src="images/challenge.svg" loading="lazy" alt="" class="icon _14 margin"><div class="font-200-s">«Neue, interessante Bekanntschaften zu machen, etwas zu lernen, den Horizont zu erweitern, die Komfortzone zu verlassen»</div></div></div></div><div class="grid"><div id="w-node-_7be584a7-bcb2-cf74-a628-ceba5faa5429-8804ed12" class="lauftext no-bottom-margin"><h2 class="font-400-l">Personas &amp; Rollen</h2><div class="font-basic-text">Basierend auf meinem User Research habe ich den Bedürfnissen und Zielen ein Gesicht gegeben und dafür 4 Personas erstellt, die meine Plattform nutzen werden. </div><h2 class="font-300-m top-margin-small">Personas</h2><ul role="list" class="list"><li class="font-basic-text font-basic-text-list"><strong>Bettina Business – die Regelmässige Userin<br></strong>Sie sucht regelmässig nach einer Begleitung, um nicht alleine essen zu müssen und um neue Restaurants in der Stadt zu entdecken.</li><li class="font-basic-text font-basic-text-list"><strong>Noemi Neustädt – die Häufige<br></strong>Ihr Ziel ist es, neue Bekanntschaften zu machen und falls es passt auch neue Freundschaften zu schliessen. Sie möchte sich am neuen Wohnort ein soziales Umfeld schaffen.</li><li class="font-basic-text font-basic-text-list"><strong>Fynn Frei – der Einmalige<br>‍</strong>Er findet es aufregend, neue Menschen und deren Überzeugungen kennenzulernen. Er möchte etwas Neues erleben und seine Komfortzone verlassen.</li><li class="font-basic-text font-basic-text-list"><strong>Rafael Restaurant – Der Restaurantbesitzer<br></strong>Er macht sich die Plattform zu Nutze, indem er einerseits von der grösseren Reichweite für neue Restaurants profitiert und andererseits die Zeiträume füllen kann, die weniger gut besucht sind.</li></ul></div></div><div class="grid"><a href="#" id="w-node-e766d973-8f84-a181-a098-3e8f63fdff1e-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/persona_bettina.jpg" loading="lazy" sizes="(max-width: 479px) 16vw, (max-width: 767px) 7vw, (max-width: 991px) 5vw, 6vw" srcset="images/persona_bettina-p-500.jpeg 500w, images/persona_bettina-p-800.jpeg 800w, images/persona_bettina-p-1080.jpeg 1080w, images/persona_bettina-p-1600.jpeg 1600w, images/persona_bettina.jpg 1920w" alt="" class="image"><script type="application/json" class="w-json">{
+</style>
+    </div>
+  </div>
+  <div id="top" class="container-id"></div>
+  <header id="help-home" class="section hero">
+    <div class="container-margin hero">
+      <div class="grid _2row">
+        <div id="w-node-_46fdccc0-ce27-8516-e9fd-9a4e59fa8ac1-ef2c6624" class="hero">
+          <h1 class="font-hero-title">«Trotz Digitalisierung fühlt sich jeder dritte Mensch in der Schweiz ‹manchmal› einsam.»</h1>
+          <h6 class="font-lead left-aligned">Dies berichtet das Schweizerische Gesundheitsobservatorium (Obsan) in ihrem 2020 veröffentlichten Bericht zur psychischen Gesundheit der Schweiz.</h6>
+        </div>
+        <div id="w-node-_18547b90-a42c-3029-fea5-7442fadb205c-ef2c6624" class="image-container"><img src="images/fenster-blop.svg" loading="eager" alt="" class="image-hero"></div>
+      </div>
+    </div>
+  </header>
+  <section id="01-einleitung" class="section">
+    <div class="container kapitel-hero centered">
+      <div class="container">
+        <h2 class="font-400-l centered regular white no-top-margin">Kapitel 1</h2>
+        <h2 class="font-600-xxl no-margin white">Einleitung</h2>
+      </div><img src="images/willkommen.svg" loading="eager" alt="" class="image-section-hero">
+    </div>
+    <div class="container-margin">
+      <div class="grid">
+        <div id="w-node-_85ace64b-2249-c15d-ff45-fac6ff32eef0-ef2c6624" class="lauftext">
+          <h2 class="font-400-l">Einsamkeit bei jungen Menschen</h2>
+          <div class="font-basic-text">Wenn über Einsamkeit gesprochen wird, denken wir meist an ältere Menschen, die alleine Zuhause sitzen. Umso mehr war ich überrascht, als ich bei meiner Recherche herausfand, dass junge Menschen am häufigsten von Einsamkeit betroffen sind. Rund 47% der 15–34-jährigen gaben laut Obsan an, sich einsam zu fühlen. Bei der Altersgruppe 65+ betrug der Wert gerade mal 32%.</div>
+          <div class="font-basic-text-small grey"><strong>Qu1</strong>
+            <a href="https://www.obsan.admin.ch/sites/default/files/obsan_15_2020_bericht_2.pdf" target="_blank" class="link">Obsan Bericht</a>, S.53, G3.8
+          </div>
+          <div class="font-basic-text">Für ältere Menschen gibt es bereits viele Organisationen, wie beispielsweise <a href="https://www.prosenectute.ch/de.html" target="_blank" class="link">Pro Senectute</a> oder <a href="https://www.rentarentner.ch/v2/index.html" target="_blank" class="link">Rent a Rentner</a>, die sich dem Thema Einsamkeit annehmen. Für jüngere Menschen hält sich das Angebot, um gezielt neue Kontakte zu knüpfen, in Grenzen.</div>
+          <h2 class="font-400-l">Einsamkeit &amp; Corona</h2>
+          <div class="font-basic-text">Zusätzlich wurden bei uns allen aufgrund der Corona-Pandemie die sozialen Kontakte reduziert. Bei einer Umfrage der SRG 2021 gaben mehr als die Hälfte der Befragten an, sich vor sozialer Isolation zu fürchten.</div>
+          <div class="font-basic-text-small grey"><strong>Qu2</strong>
+            <a href="https://sotomo.ch/site/wp-content/uploads/2021/01/6.-SRG-Corona-Monitor.pdf" target="_blank" class="link">SRG Umfrage</a>, S.10
+          </div>
+          <h2 class="font-400-l">Stigma Einsamkeit</h2>
+          <div class="font-basic-text">«Alleine die Worte ‹Ich fühle mich einsam.› zu sagen, fühlt sich für mich fast so an, als sei ich eine Versagerin.», sagte Debbie Brupacher in einem Interview für Swissinfo. Einsamkeit ist in der Schweiz ein Tabuthema, das niemand gerne anspricht.</div>
+          <div class="font-basic-text-small grey"><strong>Qu3</strong>
+            <a href="https://stories.swissinfo.ch/einsamkeit-in-der-schweiz#222934" target="_blank" class="link">Swissinfo Interview</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_57728dfa-b025-4551-49dc-e8f4728ffc37-ef2c6624" class="container flex bottom-margin"><img src="images/charlotte.jpg" loading="eager" id="w-node-b28c80ae-c6a5-b0ea-4299-81f4f6634aa4-ef2c6624" alt="Charlotte Gantenbein an einem Holztisch" class="image-horizontal _40 rounded-corners">
+          <div id="w-node-df6d73e4-ebfb-3532-5c22-2197b772caab-ef2c6624" class="container-text stretch margin-top margin-left">
+            <h2 class="font-600-xxl orange left-aligned no-top-margin">«Ich glaube schon, dass viele Junge unter Vereinzelung leiden.»</h2>
+            <div class="font-basic-text">Charlotte Gantenbein arbeitete 20 Jahre bei der «Dargebotenen Hand». Sie telefonierte und chattete täglich mit jungen Menschen, die sie aufgrund von Einsamkeitsgefühlen kontaktierten.</div>
+            <div class="font-200-s margin-top">Interview Ausschnitt</div>
+            <div id="w-node-a58c6754-56b2-b721-8105-ed097019b8e2-ef2c6624" class="soundcloud-widget margin-top w-embed w-iframe"><iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1276721932&color=%23ff7b00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+              <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                <a href="https://soundcloud.com/user-141214004" title="seratanin" target="_blank" style="color: #cccccc; text-decoration: none;">seratanin</a> · <a href="https://soundcloud.com/user-141214004/charlotte" title="Charlotte" target="_blank" style="color: #cccccc; text-decoration: none;">Charlotte</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_79d2266f-9e0f-899a-b0f6-2f2f49ef13a5-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-500-xl orange">Wie können junge Menschen, die sich einsam fühlen, dabei unterstützt werden, neue Kontakte zu knüpfen?</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_61f0875c-0cf2-b59e-a449-8dfd36a6e025-ef2c6624" class="lauftext no-top-margin">
+          <h2 class="font-400-l">Essen verbindet</h2>
+          <div class="font-basic-text">Essen ist eine kulturell wichtige und vor allem soziale Aktivität, der wir täglich nachgehen. Bei privaten Treffen habe ich wahrgenommen, dass sich Menschen, die zu einer unbekannten Gruppe stossen, ohne Beschäftigung sehr unwohl fühlen und so schnell zum Handy greifen, um beschäftigt zu wirken. Dies führt dazu, dass soziale Interaktionen vermieden werden und man noch weniger mit fremden Menschen in Kontakt kommt. Sobald bei solchen Treffen Essen auf dem Tisch steht, ist die Stimmung gleich lockerer, denn jetzt hat man zumindest ein gemeinsames Gesprächsthema – das Essen. Gespräche werden angeregt, da man sich an einem Tisch gegenüber sitzt und in die Augen schaut. Wenn wir gemeinsam geniessen, entsteht eine Verbundenheit und vor allem ein Ort der Begegnung und des Austausches.</div>
+          <h2 class="font-400-l">Tavolata</h2>
+          <div class="font-basic-text">Bei einer italienischen Tavolata, zu Deutsch «Tafelrunde», kommen Menschen an einem grossen Tisch zusammen, die ihre Zeit zusammen bei einem gemütlichen Essen geniessen wollen. Dabei werden klassischerweise verschiedenste Speisen in die Mitte des Tisches gestellt, die familiär miteinander geteilt werden. Eine Tavolata kann bei Gastgeber:innen zu Hause oder in einem Restaurant stattfinden. Die Idee der Tavolata läuft in der Gastro-Szene unter dem Namen «Sharing Dishes» und erfreut sich seit längerem grosser Beliebtheit.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-c8575657-288b-5a64-71e5-e2a6b2e3abb5-ef2c6624" class="image-box no-padding mobile"><img src="images/iStock-903783156.jpg" loading="eager" alt="Tavolata Gruppe bei Sonnenuntergang" class="image-horizontal _100 mobile"></div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_281330ba-6124-9003-e50c-fc7f9a5ee75a-ef2c6624" class="lauftext no-top-margin">
+          <h2 class="font-400-l">Ziel meiner Diplomarbeit</h2>
+          <div class="font-basic-text">In meiner Diplomarbeit habe ich mich eingangs der Problemstellung der Einsamkeit gewidmet und mit Hilfe des <a href="https://www.invisionapp.com/defined/human-centered-design" target="_blank" class="link">Human Centered Design</a> Prozesses eine mobile Applikation konzipiert, die besonders junge Menschen dabei unterstützt, sich mittels gemeinsamen Essens miteinander zu verbinden.</div>
+          <h2 class="font-400-l">Meine Motivation</h2>
+          <div class="font-basic-text">Wenn ich mich mit Freunden treffe, gehe ich am liebsten Essen. Ich fühle mich in dieser entspannten Atmosphäre wohl und geniesse die Gespräche, welche dabei entstehen. Essen bedeutet für mich Geniessen und sich Zeit füreinander zu nehmen. Ausserdem empfinde ich einen Besuch im Restaurant als ein Erlebnis, dass mich immer wieder von Neuem überrascht und trotzdem nicht zu weit ausserhalb meiner Komfortzone stattfindet.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="02-user-research" class="section">
+    <div class="container kapitel-hero centered">
+      <div class="container">
+        <h2 class="font-400-l centered regular white no-top-margin">Kapitel 2</h2>
+        <h2 class="font-600-xxl no-margin white">User Research</h2>
+      </div><img src="images/user-research.svg" loading="eager" alt="" class="image-section-hero">
+    </div>
+    <div class="container-margin">
+      <div class="grid">
+        <div id="w-node-_5bfa55ef-edcd-b8a9-8dd9-56c1eb1424a4-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-400-l">Umfrage Einsamkeit</h2>
+          <div class="font-basic-text">Um eine objektivere Perspektive auf meine Problemstellung zu erhalten, führte ich eine quantitative Befragung durch, mit der ich Einblicke in die Gedanken von 102 Teilnehmer:innen zum Thema Einsamkeit gewinnen konnte. Rund zwei Drittel der Befragten waren zwischen 15–34 Jahre alt.</div>
+          <div class="infografik w-embed w-iframe w-script"><iframe title="Zu welcher Altersgruppe gehörst du?" aria-label="Torten-diagramm" id="datawrapper-chart-2g55D" src="https://datawrapper.dwcdn.net/2g55D/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="515"></iframe>
+            <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+          </div>
+          <h2 class="font-300-m">Häufigkeit</h2>
+          <div class="font-basic-text">Rund 60% der Befragten gaben an, sich «manchmal» einsam zu fühlen, was mir die Rechercheergebnisse nochmals bestätigte.</div>
+          <div class="infografik w-embed w-iframe w-script"><iframe title="Wie häufig fühlst du dich einsam?" aria-label="Torten-diagramm" id="datawrapper-chart-NCBNu" src="https://datawrapper.dwcdn.net/NCBNu/11/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="515"></iframe>
+            <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+          </div>
+          <h2 class="font-300-m">Ursachen</h2>
+          <div class="font-basic-text">Die Gründe, warum sich die Befragten einsam fühlen, waren sehr divers, aber die Ursachen hatten häufig mit Veränderungen der äusseren Umstände zu tun. Beispielsweise Trennungen von Partner:innen, Umzug in eine neue Stadt oder auch Veränderungen im Freundeskreis selber wie zum Beispiel, dass alle Freund:innen vergeben sind. Einige Antworten möchte ich gerne direkt zitieren.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-d65bd5c3-4abb-4038-8d0c-1987f6fda94f-ef2c6624" class="container-100 flex margin no-bottom-margin">
+          <div class="container-quote margin">
+            <div class="font-200-s orange">«Ausziehen aus dem Elternhaus, Trennung vom Partner»</div>
+          </div>
+          <div class="container-quote margin">
+            <div class="font-200-s orange">«Änderung der privaten Situation (Studium), durch welche ich Personen, welche ich vorhin mehrmals wöchentlich sah, nicht mehr sehe plus Umzug des Partners.»</div>
+          </div>
+          <div class="container-quote">
+            <div class="font-200-s orange">«Neu in der Gegend und noch keine sozialen Kontakte»</div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_5bfa55ef-edcd-b8a9-8dd9-56c1eb1424e7-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-300-m">Massnahmen</h2>
+          <div class="font-basic-text">Die wohl wichtigsten Antworten erhielt ich, als ich danach fragte, wie die Befragten mit der Einsamkeit umgehen. Einige davon sind anschliessend zitiert.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_0f487668-825e-7462-817f-25081f1d4d71-ef2c6624" class="container-100 flex margin">
+          <div class="container-quote margin">
+            <div class="font-200-s orange">«Menschen treffen, Zeit mit Freunden und Familie verbringen.»</div>
+          </div>
+          <div class="container-quote margin">
+            <div class="font-200-s orange">«Das Sozialleben aktiv <strong>‹</strong>ankurbeln<strong>›</strong>, Pläne machen, Nachrichten schreiben, anrufen usw.»</div>
+          </div>
+          <div class="container-quote">
+            <div class="font-200-s orange">«Freunde und Familie, Sport, Ablenkung»</div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_56400931-3761-0451-c1bf-81e438355f3e-ef2c6624" class="lauftext no-top-margin no-bottom-margin">
+          <div class="font-basic-text">Daraus schloss ich, dass die Mehrheit der Befragten aktiv etwas unternimmt, wenn sie sich manchmal einsam fühlen. Sie arrangieren Treffen, rufen Freund:innen oder Familie an oder versuchen sich anderweitig abzulenken.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_707eb4ef-e5e0-df6d-3b35-723a62979a80-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-300-m">Tavolata Bedürfnis</h2>
+          <div class="font-basic-text">Zum Abschluss der Umfrage habe ich zwei konkretere Fragen zum Thema «Mit fremden Personen gemeinsam Essen» gestellt. Erfreulicherweise können sich 85% der Befragten vorstellen, mit 6 unbekannten Personen einen Abend im Restaurant zu verbringen.</div>
+          <div class="infografik w-embed w-iframe w-script"><iframe title="Könntest du dir vorstellen, einen Abend im Restaurant zu verbringen, an einem Tisch mit 6 anderen Personen, die dich und die anderen nicht kennen?" aria-label="Balken" id="datawrapper-chart-8D1H7" src="https://datawrapper.dwcdn.net/8D1H7/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="151"></iframe>
+            <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+          </div>
+          <h2 class="font-300-m">Motivation User:innen</h2>
+          <div class="font-basic-text">Die Gründe, warum sie dies tun würden, bezogen sich jedoch kaum auf das Gefühl der Einsamkeit. Sie gingen eher aus der positiven Motivation und dem Interesse hervor, neue, spannende Leute kennenzulernen und vielleicht sogar jemanden zu finden, mit dem man sich gut versteht. 15% der Befragten gaben als Grund auch an, so nicht alleine essen zu müssen.</div>
+          <div class="infografik w-embed w-iframe w-script"><iframe title="Aus welchen Gründen würdest du an einem solchen Abend teilnehmen?" aria-label="Balken" id="datawrapper-chart-L7Tsc" src="https://datawrapper.dwcdn.net/L7Tsc/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="209"></iframe>
+            <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+          </div>
+          <h2 class="font-300-m">Erwartungen</h2>
+          <div class="font-basic-text">Um ein Bild davon zu erhalten, was sich User:innen von einem solchen Abend wünschen, fragte ich nach ihren Erwartungen. Die Aussagen einiger Teilnehmer:innen überschnitten sich stark. Zusammengefasst lässt sich sagen, dass die Befragten einen unterhaltsamen Abend mit interessanten Menschen und Gesprächen erwarten. Einige Antworten sind wieder nachfolgend zitiert.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-a70aedc1-a6e8-6d15-e683-8de094c63577-ef2c6624" class="container-100 flex margin">
+          <div class="container-quote margin">
+            <div class="font-200-s orange">«Ein spannendes Essen, neue Geschichten hören und wenns passt neue Freundschaft.»</div>
+          </div>
+          <div class="container-quote margin">
+            <div class="font-200-s orange">«Gute Unterhaltung, Essen und gegebenenfalls neue Bekanntschaften. Das ist aber nicht zwingend, um den Abend als Erfolg anzusehen.»</div>
+          </div>
+          <div class="container-quote">
+            <div class="font-200-s orange">«Neue, interessante Bekanntschaften zu machen, etwas zu lernen, den Horizont zu erweitern, die Komfortzone zu verlassen»</div>
+          </div>
+        </div>
+      </div>
+      <div class="button-wrapper">
+        <a href="documents/Umfrage_Einsamkeit_Ergebnisse.csv" target="_blank" class="button w-button">Daten Umfrage herunterladen</a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_5bfa55ef-edcd-b8a9-8dd9-56c1eb14250e-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">Interviews</h2>
+          <div class="font-basic-text">Um mein Verständnis der Zielgruppe sowie dem ganzen Kosmos des gemeinsamen Essens zu vertiefen, führte ich unter anderem Interviews mit einer ehemaligen Mitarbeiterin der «Dargebotenen Hand», einer «<a href="https://bumble.com/de/bff" target="_blank" class="link">Bumble BFF</a>»-Userin, der Leiterin des «Netzwerk Tavolata» vom Migros-Kulturprozent, einer privaten Tavolata Gruppe sowie einer Servicefachkraft eines Zürcher Restaurants. Die Interviews verhalfen mir zu folgenden Erkenntnissen, die meinem Projekt eine präzisere Fahrtrichtung vorgaben:</div>
+          <h2 class="font-300-m">Problem</h2>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list">Menschen, die sich sehr regelmässig einsam fühlen, leiden oftmals an <strong>psychischen Krankheiten</strong>. Dem kann ich mit meinem Produkt <strong>nicht entgegenwirken.</strong></li>
+            <li class="font-basic-text font-basic-text-list">Zu den Problemen zählt auch, dass viele Menschen in gewissen Situationen <strong>nicht allein essen</strong> wollen.</li>
+          </ul>
+          <h2 class="font-300-m">Zielgruppe</h2>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list">Mich allein auf die Zielgruppe <strong>«Einsame Menschen»</strong> zu fokussieren, ist nahezu unmöglich, da die Ursachen für Einsamkeit sehr unterschiedlich sind.</li>
+            <li class="font-basic-text font-basic-text-list">Zur Zielgruppe gehören auch Personen, die das <strong>Bedürfnis</strong> haben, mit <strong>neuen Menschen in Kontakt</strong> zu kommen, sich aber nicht zwingend einsam fühlen.</li>
+          </ul>
+          <h2 class="font-300-m">Plattform</h2>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list">Menschen sind froh, wenn die Plattform einige <strong>Regeln</strong> vorgibt. So kann Verantwortung abgegeben werden.</li>
+            <li class="font-basic-text font-basic-text-list">Wenn es zwischenmenschlich harmoniert, wird von der Plattform schnell auf <strong>private Kommunikationskanäle</strong> (z. B. Whatsapp) gewechselt.</li>
+            <li class="font-basic-text font-basic-text-list">Ein <strong>Treffen</strong> soll möglichst bald <strong>vor Ort</strong> stattfinden. Wir brauchen physische, soziale Interaktion, um uns mit jemandem zu verbinden.</li>
+            <li class="font-basic-text font-basic-text-list">Persönliche <strong>Texte und Bilder</strong> sind wichtige Faktoren bei der Entscheidung für eine Tavolata/Person.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_5bfa55ef-edcd-b8a9-8dd9-56c1eb14251e-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">Problem Redefinition &amp; Challenge</h2>
+          <div class="font-basic-text">Die Anforderungsrecherche abschliessend, konkretisierte ich das grundsätzliche Problem und erstellte das daraus resultierende Bedürfnis. Darauf aufbauend formulierte ich die Challenge, welche ich mit dieser Diplomarbeit lösen möchte.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_47dfe5d6-3536-c05f-4e05-70ab7ac38e1d-ef2c6624" class="container-100 flex margin">
+          <div class="container-icon-text margin error"><img src="images/error.svg" loading="lazy" alt="" class="icon _14 margin">
+            <div class="font-300-m no-top-margin big-bottom-margin red">Problem</div>
+            <ul role="list" class="list">
+              <li class="font-200-s margin">Aufgrund äusserer Umstände haben User:innen ein kleines soziales Umfeld.</li>
+              <li class="font-200-s">User:innen würden gerne in Gesellschaft essen, aber es hat niemand Zeit.</li>
+            </ul>
+          </div>
+          <div class="container-icon-text margin warning"><img src="images/love.svg" loading="lazy" alt="" class="icon _14 margin">
+            <div class="font-300-m no-top-margin big-bottom-margin yellow">Bedürfnis</div>
+            <ul role="list" class="list">
+              <li class="font-200-s margin">User:innen möchten in Kontakt mit neuen, gleichgesinnten Menschen kommen.</li>
+              <li class="font-200-s">Gesellschaft beim Essen</li>
+            </ul>
+          </div>
+          <div class="container-icon-text success"><img src="images/challenge.svg" loading="lazy" alt="" class="icon _14 margin">
+            <div class="font-300-m no-top-margin big-bottom-margin green">Challenge</div>
+            <div class="font-200-s">Wie kann ich es User:innen ermöglichen, in Gesellschaft zu essen und dabei neue Kontakte zu knüpfen?</div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_7be584a7-bcb2-cf74-a628-ceba5faa5429-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">Personas &amp; Rollen</h2>
+          <div class="font-basic-text">Basierend auf meiner User Research habe ich den Bedürfnissen und Zielen ein Gesicht gegeben und dafür 4 Personas erstellt, die meine Plattform nutzen werden. </div>
+          <h2 class="font-300-m top-margin-small">Personas</h2>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list"><strong>Bettina Business – die regelmässige Userin<br></strong>Sie sucht regelmässig nach einer Begleitung, um nicht allein essen zu müssen und um neue Restaurants in der Stadt zu entdecken.</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Noemi Neustädt – die Häufige<br></strong>Ihr Ziel ist es, neue Bekanntschaften zu machen und falls es passt, auch neue Freundschaften zu schliessen. Sie möchte sich am neuen Wohnort ein soziales Umfeld schaffen.</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Fynn Frei – der Einmalige<br>‍</strong>Er findet es aufregend, neue Menschen und deren Überzeugungen kennenzulernen. Er möchte etwas Neues erleben und seine Komfortzone verlassen.</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Rafael Restaurant – der Restaurantbesitzer<br></strong>Er macht sich die Plattform zu Nutze, indem er einerseits von der grösseren Reichweite für neue Restaurants profitiert und andererseits die Zeiträume füllen kann, die weniger gut besucht sind.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-e766d973-8f84-a181-a098-3e8f63fdff1e-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/persona_bettina.jpg" loading="eager" alt="Persona Bettina" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
       "origFileName": "persona_bettina.jpg",
       "fileName": "persona_bettina.jpg",
-      "fileSize": 1136897,
-      "height": 1919,
+      "fileSize": 149077,
+      "height": 1565,
       "url": "images/persona_bettina.jpg",
       "width": 1920,
       "caption": "Persona Bettina",
@@ -60,14 +317,17 @@ body:hover .cursor {
     }
   ],
   "group": "Personas"
-}</script></a><a href="#" id="w-node-_85b9f7ea-c782-3860-52da-24493904a983-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/persona_noemi.jpg" loading="lazy" sizes="(max-width: 479px) 16vw, (max-width: 767px) 7vw, (max-width: 991px) 5vw, 6vw" srcset="images/persona_noemi-p-500.jpeg 500w, images/persona_noemi-p-800.jpeg 800w, images/persona_noemi-p-1080.jpeg 1080w, images/persona_noemi-p-1600.jpeg 1600w, images/persona_noemi.jpg 1920w" alt="" class="image"><script type="application/json" class="w-json">{
+}</script>
+        </a>
+        <a href="#" id="w-node-_85b9f7ea-c782-3860-52da-24493904a983-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/persona_noemi.jpg" loading="eager" alt="Persona Noemi" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
       "origFileName": "persona_noemi.jpg",
       "fileName": "persona_noemi.jpg",
-      "fileSize": 1257672,
-      "height": 1919,
+      "fileSize": 137859,
+      "height": 1565,
       "url": "images/persona_noemi.jpg",
       "width": 1920,
       "caption": "Persona Noemi",
@@ -75,50 +335,115 @@ body:hover .cursor {
     },
     {
       "_id": "example_img",
-      "origFileName": "persona_rafael.jpg",
-      "fileName": "persona_rafael.jpg",
-      "fileSize": 1390762,
-      "height": 1919,
-      "url": "images/persona_rafael.jpg",
-      "width": 1920,
-      "caption": "Persona Rafael",
-      "type": "image"
-    },
-    {
-      "_id": "example_img",
       "origFileName": "persona_fynn.jpg",
       "fileName": "persona_fynn.jpg",
-      "fileSize": 1212354,
-      "height": 1919,
+      "fileSize": 139506,
+      "height": 1565,
       "url": "images/persona_fynn.jpg",
       "width": 1920,
       "caption": "Persona Fynn",
       "type": "image"
+    },
+    {
+      "_id": "example_img",
+      "origFileName": "persona_rafael.jpg",
+      "fileName": "persona_rafael.jpg",
+      "fileSize": 147794,
+      "height": 1565,
+      "url": "images/persona_rafael.jpg",
+      "width": 1920,
+      "caption": "Persona Rafael",
+      "type": "image"
     }
   ],
   "group": "Personas"
-}</script></a></div><div class="grid"><div id="w-node-_0deb8001-c05c-e9d8-268e-f0b846d67e1f-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-300-m">Benutzerrollen</h2><div class="font-basic-text">Dazugehörig wurden 3 Rollen definiert, die auf der Plattform stattfinden werden. Hauptsächlich habe ich mich auf die Personas Noemi und Bettina fokussiert, da diese die Plattform am häufigsten nutzen.</div></div></div><div class="grid"><a href="#" id="w-node-_5df05438-81f9-e1c9-73f0-ba3b1a5fad6e-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/benutzerrollen.jpg" loading="lazy" sizes="(max-width: 479px) 16vw, (max-width: 767px) 7vw, (max-width: 991px) 5vw, 6vw" srcset="images/benutzerrollen-p-500.jpeg 500w, images/benutzerrollen-p-800.jpeg 800w, images/benutzerrollen-p-1080.jpeg 1080w, images/benutzerrollen-p-1600.jpeg 1600w, images/benutzerrollen.jpg 1920w" alt="" class="image"><script type="application/json" class="w-json">{
+}</script>
+        </a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_0deb8001-c05c-e9d8-268e-f0b846d67e1f-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-300-m">Benutzerrollen</h2>
+          <div class="font-basic-text">Dazugehörig habe ich 3 Rollen definiert, die auf der Plattform stattfinden werden. Diese Arbeit fokussiert sich grundsätzlich auf die Rolle der Nutzer:innen.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-_5df05438-81f9-e1c9-73f0-ba3b1a5fad6e-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/benutzerrollen.jpg" loading="eager" alt="" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
       "origFileName": "benutzerrollen.jpg",
       "fileName": "benutzerrollen.jpg",
-      "fileSize": 1358412,
+      "fileSize": 211233,
       "height": 1565,
       "url": "images/benutzerrollen.jpg",
       "width": 1920,
-      "caption": "Benutzerrollen",
       "type": "image"
     }
   ],
   "group": ""
-}</script></a></div><div class="button-wrapper"><a href="documents/Personas_Rollen.pdf" target="_blank" class="button w-button">Personas und Rollen anzeigen</a></div><div class="grid"><div id="w-node-b99c124d-742b-c26a-873c-1fd35919af69-8804ed12" class="lauftext no-bottom-margin"><h2 class="font-400-l">Benchmark Analyse</h2><div class="font-basic-text">Was für Angebote existieren bereits zum Thema gemeinsam Essen und Kontakte knüpfen? Unter anderem habe ich die folgenden drei Organisationen in meiner Benchmark Analyse auf ihre Stärken und Schwächen untersucht.</div></div></div><div class="grid"><div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" id="w-node-a7a1dc92-30a0-c7ad-cb0b-4f3c16acbd61-8804ed12"><div class="w-slider-mask"><div class="slide w-slide"></div><div class="slide-2 w-slide"></div></div><div class="w-slider-arrow-left"><div class="icon-2 w-icon-slider-left"></div></div><div class="w-slider-arrow-right"><div class="w-icon-slider-right"></div></div><div class="w-slider-nav w-round"></div></div></div></div><div class="button-wrapper bottom-margin-big"><a href="documents/Benchmark_Analyse.pdf" target="_blank" class="button w-button">Benchmarkanalyse anzeigen</a></div></div><div class="section"><div class="container kapitel-hero"><div class="container"><h2 class="font-400-l centered regular white">Kapitel 3</h2><h2 class="font-600-xxl white margin">Konzeption</h2></div><img src="images/konzeption.svg" loading="lazy" alt=""></div><div class="container-margin"><div class="grid"><div id="w-node-_7582f6eb-2440-0101-5ab2-f0f91a045cc7-8804ed12" class="lauftext no-bottom-margin"><h2 class="font-400-l">Ideation</h2><div class="font-basic-text">Mit umfassendem User Research im Rucksack, wagte ich erste Konkretisierungsversuche, die ich mit der Crazy 8 Kreativ-Methode zusammen mit zwei Freund:innen entwarf. Ein Papier wird so gefaltet, dass 8 Felder entstehen, die je in einer Minute mit Skizzen von Ideen gefüllt werden.Ohne ins Detail zu gehen, versuchte ich die wichtigsten Ergebnisse mit Stichworten zusammenzufassen.</div><ul role="list" class="list"><li class="font-basic-text font-basic-text-list"><strong>Verifizierung</strong></li><li class="font-basic-text font-basic-text-list">Bei jemandem <strong>Zuhause</strong> oder im <strong>Restaurant</strong> essen</li><li class="font-basic-text font-basic-text-list"><strong>Ernährungsweisen</strong> (Vegi, Vegan)</li><li class="font-basic-text font-basic-text-list"><strong>Erfahrungsbericht </strong>schreiben</li><li class="font-basic-text font-basic-text-list">Wissen, <strong>wer</strong> schon «<strong>am Tisch sitzt</strong>»</li><li class="font-basic-text font-basic-text-list">Eigene <strong>Interessen</strong> im Profil hinterlegen</li></ul></div></div><div class="grid"><a href="#" id="w-node-a7ed55fb-60e6-d82e-c1d4-5c4147577c85-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/ideation_1.jpg" loading="lazy" sizes="(max-width: 479px) 16vw, (max-width: 767px) 7vw, (max-width: 991px) 5vw, 6vw" srcset="images/ideation_1-p-500.jpeg 500w, images/ideation_1-p-800.jpeg 800w, images/ideation_1-p-1080.jpeg 1080w, images/ideation_1-p-1600.jpeg 1600w, images/ideation_1.jpg 1920w" alt="" class="image"><script type="application/json" class="w-json">{
+}</script>
+        </a>
+      </div>
+      <div class="button-wrapper">
+        <a href="documents/Personas_Rollen.pdf" target="_blank" class="button w-button">Alle Personas und Rollen anzeigen</a>
+      </div>
+      <div class="grid">
+        <div id="w-node-b99c124d-742b-c26a-873c-1fd35919af69-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">Benchmark-Analyse</h2>
+          <div class="font-basic-text">Welche Angebote existieren bereits zum Thema «gemeinsam Essen» und «Kontakte knüpfen»? Unter anderem habe ich die folgenden drei Organisationen in meiner Benchmark-Analyse auf ihre Stärken und Schwächen untersucht.</div>
+        </div>
+      </div>
+    </div>
+    <div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" id="w-node-a7a1dc92-30a0-c7ad-cb0b-4f3c16acbd61-ef2c6624">
+      <div class="w-slider-mask">
+        <div class="slide w-slide"></div>
+        <div class="slide-2 w-slide"></div>
+        <div class="slide-12 w-slide"></div>
+      </div>
+      <div class="w-slider-arrow-left">
+        <div class="slider-icon w-icon-slider-left"></div>
+      </div>
+      <div class="w-slider-arrow-right">
+        <div class="slider-icon w-icon-slider-right"></div>
+      </div>
+      <div class="w-slider-nav w-round"></div>
+    </div>
+    <div class="button-wrapper bottom-margin-big">
+      <a href="documents/Benchmark_Analyse.pdf" target="_blank" class="button w-button">Benchmark-Analyse anzeigen</a>
+    </div>
+  </section>
+  <section id="03-konzeption" class="section">
+    <div class="container kapitel-hero centered">
+      <div class="container">
+        <h2 class="font-400-l centered regular white no-top-margin">Kapitel 3</h2>
+        <h2 class="font-600-xxl no-margin white">Konzeption</h2>
+      </div><img src="images/konzeption.svg" loading="eager" alt="" class="image-section-hero">
+    </div>
+    <div class="container-margin">
+      <div class="grid">
+        <div id="w-node-_7582f6eb-2440-0101-5ab2-f0f91a045cc7-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-400-l">Ideation</h2>
+          <div class="font-basic-text">Mit umfassender User Research im Rucksack wagte ich erste Konkretisierungsversuche, die ich mit der Crazy-8-Kreativmethode zusammen mit zwei Freund:innen entwarf. Ein Papier wird so gefaltet, dass 8 Felder entstehen, die je in einer Minute mit Skizzen von Ideen gefüllt werden. Ohne ins Detail zu gehen, versuche ich die wichtigsten Ergebnisse in Stichworten zusammenzufassen.</div>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list"><strong>Verifizierung</strong></li>
+            <li class="font-basic-text font-basic-text-list">Bei jemandem <strong>zuhause</strong> oder im <strong>Restaurant</strong> Essen</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Ernährungsweisen</strong> (vegetarisch, vegan)</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Erfahrungsbericht </strong>schreiben</li>
+            <li class="font-basic-text font-basic-text-list">Wissen, <strong>wer</strong> schon «<strong>am Tisch sitzt</strong>»</li>
+            <li class="font-basic-text font-basic-text-list">Eigene <strong>Interessen</strong> im Profil hinterlegen</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-a7ed55fb-60e6-d82e-c1d4-5c4147577c85-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/ideation_1.jpg" loading="eager" alt="Ideation Scribbles" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
       "origFileName": "ideation_1.jpg",
       "fileName": "ideation_1.jpg",
-      "fileSize": 708907,
+      "fileSize": 149491,
       "height": 1373,
       "url": "images/ideation_1.jpg",
       "width": 1920,
@@ -127,31 +452,47 @@ body:hover .cursor {
     }
   ],
   "group": "Ideation"
-}</script></a><a href="#" id="w-node-a7ed55fb-60e6-d82e-c1d4-5c4147577c87-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/ideation_3.jpg" loading="lazy" sizes="(max-width: 479px) 16vw, (max-width: 767px) 7vw, (max-width: 991px) 5vw, 6vw" srcset="images/ideation_3-p-500.jpeg 500w, images/ideation_3-p-800.jpeg 800w, images/ideation_3-p-1080.jpeg 1080w, images/ideation_3-p-1600.jpeg 1600w, images/ideation_3.jpg 1920w" alt="" class="image"><script type="application/json" class="w-json">{
+}</script>
+        </a>
+        <a href="#" id="w-node-a7ed55fb-60e6-d82e-c1d4-5c4147577c87-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/ideation_3.jpg" loading="eager" alt="Ideation Scribbles" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
       "origFileName": "ideation_3.jpg",
       "fileName": "ideation_3.jpg",
-      "fileSize": 856449,
+      "fileSize": 181778,
       "height": 1373,
       "url": "images/ideation_3.jpg",
       "width": 1920,
+      "caption": "Crazy-8-Skizzen",
       "type": "image"
     },
     {
       "_id": "example_img",
       "origFileName": "ideation_2.jpg",
       "fileName": "ideation_2.jpg",
-      "fileSize": 632034,
+      "fileSize": 133153,
       "height": 1373,
       "url": "images/ideation_2.jpg",
       "width": 1920,
+      "caption": "Crazy-8-Skizzen",
       "type": "image"
     }
   ],
   "group": "Ideation"
-}</script></a></div><div class="grid"><div id="w-node-_5ed6ce72-5ac7-f0a5-638f-58d01174b5da-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-400-l">User Journey Map</h2><div class="font-basic-text">Dazugehörig wurden 3 Rollen definiert, die auf der Plattform stattfinden werden. Hauptsächlich habe ich mich auf die Personas Noemi und Bettina fokussiert, da diese die Plattform am häufigsten nutzen.</div></div></div><div class="grid"><a href="#" id="w-node-a610724f-5fb5-6600-6e4f-196b0d98b798-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/user-journey-map-noemi-short.jpg" loading="lazy" alt="" class="image"><script type="application/json" class="w-json">{
+}</script>
+        </a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_5ed6ce72-5ac7-f0a5-638f-58d01174b5da-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">User Journey Map</h2>
+          <div class="font-basic-text">Um mich besser in die Persona Noemi zu versetzen und ihren Weg vom ersten Mal auf die Plattform aufmerksam werden bis zur Bewertung des Restaurantbesuchs nachvollziehen zu können, konzipierte ich folgende <a href="https://www.usability.de/leistungen/methoden/user-journey-mapping.html" target="_blank" class="link">User Journey Map</a>. Dabei werden einzelne Handlungen dokumentiert mit besonderem Fokus auf die Ziele, Gefühle, Gedanken und Aussagen, die dabei entstehen.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-a610724f-5fb5-6600-6e4f-196b0d98b798-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/user-journey-map-noemi-short.jpg" loading="eager" alt="User Journey" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
@@ -166,7 +507,26 @@ body:hover .cursor {
     }
   ],
   "group": ""
-}</script></a></div><div class="button-wrapper"><a href="images/user_journey_map_noemi.jpg" target="_blank" class="button w-button">Ganze User Journey anzeigen</a></div><div class="grid"><div id="w-node-_5bb53c8a-8e88-d675-bbe0-37c8fabe5ea2-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-400-l">User Story Map</h2><div class="font-basic-text">Darauffolgend erstellte ich eine User Story Map – eine meiner liebsten Methoden aus dem Human Centered Design. Denn sie ermöglicht es, die Unmengen an Ideen, Gefühlen, und Bedürfnissen in konkrete Handlungen umzuwandeln. Sie verhalf mir zu mehr Klarheit darüber, welche Funktionen ich auf meiner Plattform anbieten muss und welche kleineren Schritte User:innen bei ihren Handlungen erledigen.Den Kern stellten dabei folgende drei Handlungen dar:</div><ul role="list" class="list"><li class="font-basic-text font-basic-text-list">Einen <strong>Tisch suchen</strong></li><li class="font-basic-text font-basic-text-list">Für einen Tisch <strong>anmelden</strong></li><li class="font-basic-text font-basic-text-list">Von einem Tisch <strong>abmelden</strong></li></ul></div></div><div class="grid"><a href="#" id="w-node-_5e86ebb3-36aa-041b-5057-697ba1a7de67-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/user_story_map_short.jpg" loading="lazy" alt="" class="image"><script type="application/json" class="w-json">{
+}</script>
+        </a>
+      </div>
+      <div class="button-wrapper">
+        <a href="images/user_journey_map_noemi.jpg" target="_blank" class="button w-button">Ganze User Journey Map anzeigen</a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_5bb53c8a-8e88-d675-bbe0-37c8fabe5ea2-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">User Story Map</h2>
+          <div class="font-basic-text">Darauffolgend erstellte ich eine User Story Map – eine meiner liebsten Methoden aus dem Human Centered Design. Denn sie ermöglicht es, die Unmengen an Ideen, Gefühlen und Bedürfnissen in konkrete Handlungen umzuwandeln. Sie verhalf mir zu mehr Klarheit darüber, welche Funktionen ich auf meiner Plattform anbieten muss und welche kleineren Schritte User:innen bei der Nutzung durchlaufen. Den Kern stellten dabei folgende 3 Handlungen dar:</div>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list">Einen <strong>Tisch suchen</strong></li>
+            <li class="font-basic-text font-basic-text-list">Für einen Tisch <strong>anmelden</strong></li>
+            <li class="font-basic-text font-basic-text-list">Von einem Tisch <strong>abmelden</strong></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-_5e86ebb3-36aa-041b-5057-697ba1a7de67-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/user_story_map_short.jpg" loading="eager" alt="User Story Map" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
@@ -181,7 +541,46 @@ body:hover .cursor {
     }
   ],
   "group": ""
-}</script></a></div><div class="button-wrapper"><a href="images/user_story_map.jpg" target="_blank" class="button w-button">Ganze User Story Map anzeigen</a></div><div class="grid"><div id="w-node-bcbe8502-f221-617c-60ea-bb6b6d80556a-8804ed12" class="lauftext no-top-margin"><h2 class="font-400-l">Konzept Tavolata</h2><h2 class="font-300-m top-margin-small">Inhalte &amp; Funktionen</h2><div class="font-basic-text">Bevor ich mit dem Designprozess startete, wollte ich einige grundlegende, konzeptuelle Fragen klären, um spätere Leerläufe zu verhindern. Einige davon sind nachfolgend mit den dazugehörigen Antworten aufgeführt.</div><ul role="list" class="list"><li class="font-basic-text font-basic-text-list"><strong>In welcher Form gibt es diese Plattform?<br>‍</strong>Die Plattform wird in Form einer mobilen Applikation für User:innen im App Stores oder Google Playstore verfügbar sein. Das Smartphone haben User:innen meiner Zielgruppe immer dabei und können so auch spontan einen Platz buchen. Sie sind es gewohnt, Restaurant-Reservationen vom Smartphone aus zu tätigen. Zudem können Push-Nachrichten zugestellt werden, um User:innen über mögliche Änderungen aktuell zu informieren.</li><li class="font-basic-text font-basic-text-list"><strong>Was bietet die Plattform an?<br>‍</strong>Die Plattform bietet grundsätzlich gemeinsame Essen in Form von Tavolatas an, in einer Gruppe, deren Mitglieder sich gegenseitig nicht kennen.</li><li class="font-basic-text font-basic-text-list"><strong>Wo finden die Treffen statt?<br>‍</strong>Zu diesem Zeitpunkt des Projektes war angedacht, dass die Treffen entweder in Restaurants oder bei jemandem Zuhause stattfinden. Dies wird sich jedoch im Verlauf des Projektes verändern.</li><li class="font-basic-text font-basic-text-list"><strong>Wo finden die Treffen statt?<br>‍</strong>Zu diesem Zeitpunkt des Projektes war angedacht, dass die Treffen entweder in Restaurants oder bei jemandem Zuhause stattfinden. Dies wird sich jedoch im Verlauf des Projektes verändern.</li><li class="font-basic-text font-basic-text-list"><strong>Was ist festgelegt, der Ort oder die Gruppe?<br>‍</strong>Ich habe mich dazu entschieden, den Ort und nicht die Gruppe zu fixieren, da dies für User:innen unkomplizierter ist, als sich erst eine Gruppe zu suchen, die zu ihnen passt. Ganz nach dem Prinzip des Stammtisches – wer Zeit und Lust hat, darf sich einfach dazusetzen. So wird ausserdem niemand ausgeschlossen und die Gruppen bleiben divers.</li><li class="font-basic-text font-basic-text-list"><strong>Was ist der USP der Plattform?<br></strong>Gemeinsam geniessen und einfach neue Kontakte knüpfen.<br>Bei Tavolata können User:innen neue Menschen bei familiärer Atmosphäre und vielseitigem Essen kennenlernen. Die App ist im Vergleich zur Konkurrenz deutlich niederschwelliger und somit weniger verpflichtend für User:innen. Diese können sich quasi einfach an den Tisch «dazu setzen» und müssen so auch nicht alleine essen. Auch neue Restaurants profitieren von Tavolata, indem sie ihren Bekanntheitsgrad erweitern können und somit die Auslastung erhöhen.</li></ul></div></div></div></div><div class="section"><div class="container kapitel-hero"><div class="container"><h2 class="font-400-l centered regular white">Kapitel 4</h2><h2 class="font-600-xxl white margin">Designprozess</h2></div><img src="images/designprozess.svg" loading="lazy" alt=""></div><div class="container-margin"><div class="grid"><div id="w-node-_791b034b-0e46-feae-66da-2272ca4c914e-8804ed12" class="lauftext no-bottom-margin"><h2 class="font-400-l">User Flow</h2><div class="font-basic-text">Als Grundlage für den weiteren Designprozess erstellte ich zwei User-Flows, die in schriftlicher Form zeigen, wie sich User:innen mit einem bestimmten Ziel durch die Applikation bewegen. Ein Flow nimmt die Rolle der User:innen auf, der andere zeigt diesen in der Rolle als Restaurantbesitzer:in.</div></div></div><div class="grid"><a href="#" id="w-node-_791b034b-0e46-feae-66da-2272ca4c9180-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/user_flow.jpg" loading="lazy" alt="" class="image"><script type="application/json" class="w-json">{
+}</script>
+        </a>
+      </div>
+      <div class="button-wrapper">
+        <a href="images/user_story_map.jpg" target="_blank" class="button w-button">Ganze User Story Map anzeigen</a>
+      </div>
+      <div class="grid">
+        <div id="w-node-bcbe8502-f221-617c-60ea-bb6b6d80556a-ef2c6624" class="lauftext no-top-margin">
+          <h2 class="font-400-l">Konzept Tavolata</h2>
+          <h2 class="font-300-m top-margin-small">Inhalte &amp; Funktionen</h2>
+          <div class="font-basic-text">Bevor ich mit dem Designprozess startete, wollte ich einige grundlegende konzeptuelle Fragen klären, um spätere Leerläufe zu verhindern. Einige davon sind nachfolgend mit den dazugehörigen Antworten aufgeführt.</div>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list"><strong>In welcher Form gibt es diese Plattform?<br>‍</strong>Die Plattform würde in Form einer mobilen Applikation für User:innen im «App Store» oder «Google Play Store» verfügbar sein. Das Smartphone haben User:innen meiner Zielgruppe stets dabei und können so auch spontan einen Platz buchen. Sie sind es gewohnt, Restaurant-Reservationen vom Smartphone aus zu tätigen. Zudem können Push-Nachrichten zugestellt werden, um User:innen über mögliche Änderungen aktuell zu informieren.</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Was bietet die Plattform an?<br>‍</strong>Die Plattform bietet grundsätzlich gemeinsame Essen in Form von Tavolatas an, in einer Gruppe, deren Mitglieder:innen sich gegenseitig nicht kennen.</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Wo finden die Treffen statt?<br>‍</strong>Zu diesem Zeitpunkt des Projektes war angedacht, dass die Treffen entweder in Restaurants oder bei jemandem zuhause stattfinden. Dies wird sich jedoch im Verlauf des Projektes verändern.</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Was ist festgelegt, der Ort oder die Gruppe?<br>‍</strong>Ich habe mich dazu entschieden, den Ort und nicht die Gruppe zu fixieren, da dies für User:innen unkomplizierter ist, als sich erst eine Gruppe zu suchen, die zu ihnen passt. Ganz nach dem Prinzip des Stammtisches – wer Zeit und Lust hat, darf sich einfach dazusetzen. So wird ausserdem niemand ausgeschlossen und die Gruppen bleiben divers.</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Was ist der USP der Plattform?<br></strong>Gemeinsam geniessen und einfach neue Kontakte knüpfen.<br>Bei Tavolata können User:innen neue Menschen bei familiärer Atmosphäre und vielseitigem Essen kennenlernen. Die App ist im Vergleich zur Konkurrenz deutlich niederschwelliger und somit weniger verpflichtend für User:innen. Diese können sich einfach an den Tisch «dazu setzen» und müssen so auch nicht alleine essen. Auch neue Restaurants profitieren von Tavolata, indem sie ihren Bekanntheitsgrad erweitern können und somit die Auslastung erhöhen.</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Wie können Restaurants ihre Tavolatas anbieten?<br></strong>Restaurantbetreiber:innen können ihre Tavolatas auf der Plattform anbieten, indem sie ihrem Standardprofil ein Businessprofil hinzufügen. Diese Vorgehensweise nutzen bereits populäre Anbieter:innen wie beispielsweise «Airbnb», «Too Good To Go» oder «Tripadvisor». In dieser Diplomarbeit werde ich die User-Flows der Restaurantbetreiber:innen nicht visuell erarbeiten, da diese Prozesse keinen individuellen Mehrwert bieten und mit grosser Wahrscheinlichkeit ähnlich aussehen würden wie bei den erwähnten Unternehmen.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="04-designprozess" class="section">
+    <div class="container kapitel-hero centered">
+      <div class="container">
+        <h2 class="font-400-l centered regular white no-top-margin">Kapitel 4</h2>
+        <h2 class="font-600-xxl no-margin white">Designprozess</h2>
+      </div><img src="images/designprozess.svg" loading="eager" alt="" class="image-section-hero">
+    </div>
+    <div class="container-margin">
+      <div class="grid">
+        <div id="w-node-_791b034b-0e46-feae-66da-2272ca4c914e-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-400-l">User Flows</h2>
+          <div class="font-basic-text">Als Grundlage für den weiteren Designprozess erstellte ich zwei User Flows, die in schriftlicher Form zeigen, wie sich User:innen mit einem bestimmten Ziel durch die Applikation bewegen. Ein Flow nimmt die Rolle der User:innen auf, der andere zeigt diesen in der Rolle als Restaurantbesitzer:in.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-_791b034b-0e46-feae-66da-2272ca4c9180-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/user_flow.jpg" loading="eager" alt="User Flow" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
@@ -189,14 +588,61 @@ body:hover .cursor {
       "fileName": "user_flow.jpg",
       "fileSize": 3433665,
       "height": 3772,
-      "url": "images/user_flow.jpg",
+      "url": "images/user_flow_1.jpg",
       "width": 11556,
       "caption": "User Flow",
       "type": "image"
     }
   ],
   "group": ""
-}</script></a></div><div class="button-wrapper"><a href="images/user_flow.jpg" target="_blank" class="button w-button">User Flow anzeigen</a></div><div class="grid"><div id="w-node-_791b034b-0e46-feae-66da-2272ca4c917a-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-400-l">Low-Fidelity-Prototyp Testing</h2><div class="font-basic-text">Um möglichst früh zu erkennen, welche Bereiche der Applikation funktionieren und welche nochmals überarbeitet werden müssen, führte ich ein <a href="https://de.wikipedia.org/wiki/Usability-Test" target="_blank" class="link">Usability Testing</a> mit einem <a href="https://www.protopie.io/blog/low-fidelity-vs-high-fidelity-prototyping" target="_blank" class="link">Low-Fidelity-Prototyp</a> im Wireframe Status mit 5 Szenarios und mehreren Testpersonen durch. Alle Aufgaben konnten gelöst werden, was mir zeigte, dass ich auf dem richtigen Weg war. Es es gab aber natürlich trotzdem einige Stolpersteine, auf die ich gerne ich gerne im nachfolgenden eingehen und zeigen möchte, wie ich diese gelöst habe.</div></div></div><div class="grid"><div data-delay="4000" data-animation="slide" class="slider bottom-margin-big w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" id="w-node-_84e70686-672b-85b9-bb4b-863cd69fb0ef-8804ed12"><div class="w-slider-mask"><div class="slide-3 w-slide"></div><div class="slide-4 w-slide"></div><div class="slide-5 w-slide"></div><div class="slide-6 w-slide"></div></div><div class="w-slider-arrow-left"><div class="w-icon-slider-left"></div></div><div class="w-slider-arrow-right"><div class="w-icon-slider-right"></div></div><div class="w-slider-nav w-round"></div></div></div><div class="grid"><div id="w-node-_9ab64e00-d2ed-80c1-c68d-6edbd6c3c447-8804ed12" class="lauftext no-top-margin bottom-margin-2em"><div class="font-basic-text">Zudem wurde bei den Testings klar, dass ich den Funktionsumfang und die Möglichkeiten reduzieren muss, um das Angebot der App klarer zu kommunizieren. Deswegen habe ich mich entschieden, folgende Funktionen für das <a href="https://de.wikipedia.org/wiki/Minimum_Viable_Product" class="link">Minimum Viable Product (MVP)</a> wegzulassen:</div><ul role="list" class="list"><li class="font-basic-text font-basic-text-list"><strong>Bei jemandem Zuhause essen<br>‍</strong>Dies würde eine weitere Rolle des privaten Gastgebers ins Spiel bringen und somit auch andere Buchungsprozesse erfordern, als die eines Restaurants. Wenn bei jemandem Zuhause gegessen wird, ist die Niederschwelligkeit und vor allem der Geschützte Raum nicht mehr gewährleistet.</li><li class="font-basic-text font-basic-text-list"><strong>Geschäftsbeziehung<br>‍</strong>Als Suchprofil «Geschäftsbeziehung» einzustellen, würde ganz andere Informationen im Profil bedingen (Berufserfahrung, Arbeitgeber etc.). Die App ist dafür da, neue private Kontakte zu knüpfen und deswegen liegen Geschäftsbeziehungen ausserhalb des Umfangs.</li></ul><div class="font-basic-text">Ausserdem kam die Frage auf, wie Restaurants abgesichert sind, wenn niemand von den Teilnehmer:innen erscheint. Darauf habe ich eine Bekannte kontaktiert, die als Servicefachkraft arbeitet und mich mit ihr über dieses Problem ausgetauscht. Ein Lösungsansatz, den die Gastroszene dafür hat, sind Pauschalbeträge. Wenn beispielsweise für 10 Personen reserviert wird, müssen Kund:innen eine Kreditkarte angeben, von der dann pro Person 30 Franken gebucht wird, wenn die Gruppe nicht erscheint. Diesen Lösungsansatz wandte ich auf meine Tavolatas an, denn grundsätzlich sind diese nichts anderes als bereits festgelegte Menus, die genauso im Vorhinein bezahlt werden können. Aus diesem Grund zahlen User:innen nun ihre Tavolatas bereits beim Buchungsprozess, was für andere Teilnehmer:innen sowie auch für Restaurants eine Absicherung darstellt.</div></div></div><div class="grid"><div id="w-node-_573c0771-0bcc-f7c8-2596-8d8194bf1f2c-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-400-l">Moodboard</h2><div class="font-basic-text">Zeit für Farbe und Form. Nach dem ausführlichen Testing erarbeitete ich ein Design System für meinen High-Fidelity-Prototyp. Dafür erstellte ich ein Moodboard für die Farb- und Bildwelt und beschäftige mich bereits mit der Schriftwahl für meine Tavolata-App. Die App soll visuell Wärme, Genuss und Geborgenheit vermitteln.</div></div></div><div class="grid"><a href="#" id="w-node-c180e664-89fc-81e3-b3f0-ef2a77a16a7a-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/moodboard.jpg" loading="lazy" sizes="(max-width: 479px) 16vw, (max-width: 767px) 7vw, (max-width: 991px) 5vw, 6vw" srcset="images/moodboard-p-500.jpeg 500w, images/moodboard-p-800.jpeg 800w, images/moodboard-p-1080.jpeg 1080w, images/moodboard-p-1600.jpeg 1600w, images/moodboard-p-2000.jpeg 2000w, images/moodboard-p-2600.jpeg 2600w, images/moodboard-p-3200.jpeg 3200w, images/moodboard.jpg 3724w" alt="" class="image"><script type="application/json" class="w-json">{
+}</script>
+        </a>
+      </div>
+      <div class="button-wrapper">
+        <a href="images/user_flow.jpg" target="_blank" class="button w-button">Ganzer User Flow anzeigen</a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_791b034b-0e46-feae-66da-2272ca4c917a-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">Low-Fidelity-Prototyp Testing</h2>
+          <div class="font-basic-text">Um möglichst früh zu erkennen, welche Bereiche der Applikation funktionieren und welche nochmals überarbeitet werden müssen, führte ich ein <a href="https://www.usability.de/leistungen/ux-testing-nutzerforschung/usability-test.html" target="_blank" class="link">Usability Testing</a> mit einem <a href="https://www.protopie.io/blog/low-fidelity-vs-high-fidelity-prototyping" target="_blank" class="link">Low-Fidelity-Prototyp</a> im Wireframe Status mit 5 Szenarios und mehreren Testpersonen durch. Alle Aufgaben konnten gelöst werden, was mir zeigte, dass ich auf dem richtigen Weg war. Es gab aber natürlich trotzdem einige Stolpersteine, auf die ich gerne im Nachfolgenden eingehen und aufzeigen möchte, wie ich diese gelöst habe.</div>
+        </div>
+      </div>
+    </div>
+    <div data-delay="4000" data-animation="slide" class="slider test w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" id="w-node-_84e70686-672b-85b9-bb4b-863cd69fb0ef-ef2c6624">
+      <div class="w-slider-mask">
+        <div class="slide-3 w-slide"></div>
+        <div class="slide-4 w-slide"></div>
+        <div class="slide-5 w-slide"></div>
+        <div class="slide-6 w-slide"></div>
+      </div>
+      <div class="w-slider-arrow-left">
+        <div class="slider-icon w-icon-slider-left"></div>
+      </div>
+      <div class="w-slider-arrow-right">
+        <div class="slider-icon w-icon-slider-right"></div>
+      </div>
+      <div class="w-slider-nav w-round"></div>
+    </div>
+    <div class="container-margin">
+      <div class="grid">
+        <div id="w-node-_53ed8d3f-9abe-433e-3689-1ce015c5a753-ef2c6624" class="lauftext no-top-margin bottom-margin-2em">
+          <div class="font-basic-text">Zudem wurde bei den Testings klar, dass ich gewisse Möglichkeiten reduzieren muss, um das Angebot und den Nutzen der App klarer zu kommunizieren. Deswegen habe ich entschieden, folgende Funktionen für das <a href="https://www.productplan.com/glossary/minimum-viable-product/" target="_blank" class="link">Minimum Viable Product (MVP)</a> wegzulassen:</div>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list"><strong>Bei jemandem zuhause essen<br>‍</strong>Dies würde eine weitere Rolle des privaten Gastgebers ins Spiel bringen und somit auch andere Buchungsprozesse erfordern als die eines Restaurants. Wenn bei jemandem zuhause gegessen wird, ist die Niederschwelligkeit und vor allem der geschützte Raum nicht mehr gewährleistet.</li>
+            <li class="font-basic-text font-basic-text-list"><strong>Geschäftsbeziehung<br>‍</strong>Als Suchprofil «Geschäftsbeziehung» einzustellen, würde ganz andere Informationen im Profil bedingen (Berufserfahrung, Arbeitgeber etc.). Die App ist dafür da, neue private Kontakte zu knüpfen und deswegen liegen Geschäftsbeziehungen ausserhalb des Umfangs.</li>
+          </ul>
+          <div class="font-basic-text">Ausserdem kam die Frage auf, wie Restaurants abgesichert sind, wenn keiner der Teilnehmer:innen erscheint. Hierzu habe ich eine Bekannte kontaktiert, die als Servicefachkraft arbeitet und mich mit ihr über dieses Problem ausgetauscht. Ein Lösungsansatz, den die Gastroszene dafür hat, sind Pauschalbeträge. Wenn beispielsweise für 10 Personen reserviert wird, müssen Kund:innen eine Kreditkarte angeben, von der dann pro Person 30 Franken abgebucht wird, wenn die Gruppe nicht erscheint. Diesen Lösungsansatz wandte ich auf meine Tavolatas an, denn grundsätzlich sind diese nichts anderes als bereits festgelegte Menus, die genauso im Vorhinein bezahlt werden können. Aus diesem Grund zahlen User:innen nun ihre Tavolatas bereits beim Buchungsprozess, was für andere Teilnehmer:innen sowie für Restaurants eine Absicherung darstellt.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_53ed8d3f-9abe-433e-3689-1ce015c5a769-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">Moodboard</h2>
+          <div class="font-basic-text">Zeit für Farbe und Form. Nach dem ausführlichen Testing erarbeitete ich ein Design System für meinen <a href="https://www.protopie.io/blog/low-fidelity-vs-high-fidelity-prototyping" target="_blank" class="link">High-Fidelity-Prototyp</a>. Dafür erstellte ich ein Moodboard für die Farb- und Bildwelt und beschäftige mich mit der Schriftwahl für meine Tavolata App. Die App soll visuell Wärme, Genuss und Geborgenheit vermitteln.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-_53ed8d3f-9abe-433e-3689-1ce015c5a76f-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/moodboard.jpg" loading="eager" alt="moodboard" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
@@ -204,14 +650,25 @@ body:hover .cursor {
       "fileName": "moodboard.jpg",
       "fileSize": 3458149,
       "height": 1080,
-      "url": "images/moodboard.jpg",
+      "url": "images/moodboard_1.jpg",
       "width": 3724,
       "caption": "Moodboard",
       "type": "image"
     }
   ],
   "group": ""
-}</script></a></div><div class="grid"><div id="w-node-_5a917931-3871-9579-1ae6-4972005435de-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-400-l">Design System</h2><div class="font-basic-text">Darauf aufbauend erstellte ich ein Design System mit ersten Basiskomponenten, Farb- sowie Schriftdefinitionen, die im <a href="https://www.protopie.io/blog/low-fidelity-vs-high-fidelity-prototyping" target="_blank" class="link">High-Fidelity-Prototyp</a> zum Einsatz kommen. Während des UI-Design-Prozesses wuchs die Komponenten-Bibliothek natürlich immer weiter, je mehr Mockups dazu kamen.</div></div></div><div class="grid"><a href="#" id="w-node-_27490fc8-4b17-421a-93b0-c27c6fd5e0e2-8804ed12" class="lightbox-link w-inline-block w-lightbox"><img src="images/design-system.png" loading="lazy" sizes="(max-width: 479px) 16vw, (max-width: 767px) 7vw, (max-width: 991px) 5vw, 6vw" srcset="images/design-system-p-500.png 500w, images/design-system-p-800.png 800w, images/design-system-p-1080.png 1080w, images/design-system-p-1600.png 1600w, images/design-system.png 1703w" alt="" class="image"><script type="application/json" class="w-json">{
+}</script>
+        </a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_53ed8d3f-9abe-433e-3689-1ce015c5a772-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">Design System</h2>
+          <div class="font-basic-text">Darauf aufbauend erstellte ich ein Design System mit ersten Basiskomponenten, Farb- sowie Schriftdefinitionen, die im High-Fidelity-Prototyp zum Einsatz kommen. Während des UI-Design-Prozesses wuchs die Komponenten-Bibliothek natürlich immer weiter, je mehr Mockups dazu kamen.</div>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-_53ed8d3f-9abe-433e-3689-1ce015c5a77b-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/design-system.png" loading="eager" alt="Design System" class="image">
+          <script type="application/json" class="w-json">{
   "items": [
     {
       "_id": "example_img",
@@ -226,4 +683,362 @@ body:hover .cursor {
     }
   ],
   "group": ""
-}</script></a></div><div class="button-wrapper"><a href="https://drive.google.com/drive/folders/1lZoiZxDb3YEv5VoB0j9XBVsTRmiSBalG?usp=sharing" target="_blank" class="button w-button">Design System herunterladen</a></div><div class="grid"><div id="w-node-_700c4afb-b0bd-652b-8482-cc8237c24b17-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-400-l">High-Fidelity-Prototyp Testing</h2><div class="font-basic-text">Um möglichst früh zu erkennen, welche Bereiche der Applikation funktionieren und welche nochmals überarbeitet werden müssen, führte ich ein <a href="https://de.wikipedia.org/wiki/Usability-Test" target="_blank" class="link">Usability Testing</a> mit einem <a href="https://www.protopie.io/blog/low-fidelity-vs-high-fidelity-prototyping" target="_blank" class="link">Low-Fidelity-Prototyp</a> im Wireframe Status mit 5 Szenarios und mehreren Testpersonen durch. Alle Aufgaben konnten gelöst werden, was mir zeigte, dass ich auf dem richtigen Weg war. Es es gab aber natürlich trotzdem einige Stolpersteine, auf die ich gerne ich gerne im nachfolgenden eingehen und zeigen möchte, wie ich diese gelöst habe.</div></div></div><div class="grid"><div data-delay="4000" data-animation="slide" class="slider bottom-margin-big w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" id="w-node-_083a3764-370c-2fde-2147-ed0c603abb0b-8804ed12"><div class="w-slider-mask"><div class="slide-3 w-slide"></div><div class="slide-4 w-slide"></div><div class="slide-5 w-slide"></div><div class="slide-6 w-slide"></div></div><div class="w-slider-arrow-left"><div class="w-icon-slider-left"></div></div><div class="w-slider-arrow-right"><div class="w-icon-slider-right"></div></div><div class="w-slider-nav w-round"></div></div></div></div></div><div class="section"><div class="container kapitel-hero"><div class="container"><h2 class="font-400-l centered regular white">Kapitel 5</h2><h2 class="font-600-xxl white margin">Tavolata App</h2></div><img src="images/essen.svg" loading="lazy" alt=""></div><div class="container-margin"><div class="grid margin-top"><div id="w-node-f7debd43-34d4-e683-cd11-451ad695484d-8804ed12" class="container-text"><h2 class="font-600-xxl orange left-aligned">Geniesse die Vielfalt der Kulinarik</h2><div class="font-basic-text">Entdecke neue Restaurants in deiner Stadt und komme in Genuss der italienischen Tavolata-Kultur.</div></div><img src="images/pexels-flo-dahm-541216.jpg" loading="lazy" id="w-node-f7debd43-34d4-e683-cd11-451ad6954853-8804ed12" sizes="(max-width: 479px) 13vw, (max-width: 767px) 5vw, (max-width: 991px) 4vw, 100vw" srcset="images/pexels-flo-dahm-541216-p-500.jpeg 500w, images/pexels-flo-dahm-541216-p-800.jpeg 800w, images/pexels-flo-dahm-541216-p-1080.jpeg 1080w, images/pexels-flo-dahm-541216-p-1600.jpeg 1600w, images/pexels-flo-dahm-541216-p-2000.jpeg 2000w, images/pexels-flo-dahm-541216-p-2600.jpeg 2600w, images/pexels-flo-dahm-541216.jpg 3024w" alt="" class="image-horizontal _100 rounded-corners"></div><div class="grid margin-top"><div id="w-node-fdcc5be6-2db3-e56f-fab1-c108b1cde714-8804ed12" class="container-text"><h2 class="font-600-xxl orange left-aligned">gemeinsam mit sympathischen Menschen</h2><div class="font-basic-text">Ob du gerade umgezogen bist oder einfach nicht gerne alleine isst. Bei Tavolata lernst du interessante Leute ausserhalb deines Umfelds kennen.</div></div><img src="images/pexels-flo-dahm-541216.jpg" loading="lazy" id="w-node-fdcc5be6-2db3-e56f-fab1-c108b1cde719-8804ed12" sizes="(max-width: 479px) 9vw, (max-width: 991px) 3vw, 100vw" srcset="images/pexels-flo-dahm-541216-p-500.jpeg 500w, images/pexels-flo-dahm-541216-p-800.jpeg 800w, images/pexels-flo-dahm-541216-p-1080.jpeg 1080w, images/pexels-flo-dahm-541216-p-1600.jpeg 1600w, images/pexels-flo-dahm-541216-p-2000.jpeg 2000w, images/pexels-flo-dahm-541216-p-2600.jpeg 2600w, images/pexels-flo-dahm-541216.jpg 3024w" alt="" class="image-horizontal _100 rounded-corners"></div><div class="grid margin-top"><div id="w-node-dad8a81e-4088-4d63-afde-438b8f9b69db-8804ed12" class="container-text"><h2 class="font-600-xxl orange left-aligned">und knüpfe neue Kontakte.</h2><div class="font-basic-text">xxxxxxx</div></div><img src="images/pexels-flo-dahm-541216.jpg" loading="lazy" id="w-node-dad8a81e-4088-4d63-afde-438b8f9b69e0-8804ed12" sizes="(max-width: 479px) 13vw, (max-width: 767px) 5vw, (max-width: 991px) 4vw, 100vw" srcset="images/pexels-flo-dahm-541216-p-500.jpeg 500w, images/pexels-flo-dahm-541216-p-800.jpeg 800w, images/pexels-flo-dahm-541216-p-1080.jpeg 1080w, images/pexels-flo-dahm-541216-p-1600.jpeg 1600w, images/pexels-flo-dahm-541216-p-2000.jpeg 2000w, images/pexels-flo-dahm-541216-p-2600.jpeg 2600w, images/pexels-flo-dahm-541216.jpg 3024w" alt="" class="image-horizontal _100 rounded-corners"></div></div></div><div class="section"><div class="container kapitel-hero"><div class="container"><h2 class="font-400-l centered regular white">Kapitel 6</h2><h2 class="font-600-xxl white margin">About</h2></div><img src="images/thanks.svg" loading="lazy" alt=""></div><div class="container-margin"><div class="grid"><div id="w-node-_4b8f6da5-e185-6307-5a17-159705bf654d-8804ed12" class="lauftext no-bottom-margin"><h2 class="font-400-l">Danksagung</h2><div class="font-basic-text">Ich möchte mich an dieser Stelle bei allen Menschen bedanken, die mich während der Entstehung dieser Diplomarbeit unterstützt haben.</div><ul role="list" class="list"><li class="font-basic-text font-basic-text-list"><a href="http://mscherrerkast.ch/" target="_blank" class="link"><strong>Michael Scherrer-Kast</strong></a><strong><br></strong>Mentor</li><li class="font-basic-text font-basic-text-list"><a href="https://www.atelier-perisset.ch/" target="_blank" class="link"><strong>Boris Périsset<br></strong></a>Dozent</li><li class="font-basic-text font-basic-text-list"><a href="https://www.tavolata.ch/kontakt" target="_blank" class="link"><strong>Daniela Specht</strong></a> <br>vom Migros Tavolata NetzwerkInterviewpartnerin</li><li class="font-basic-text font-basic-text-list">Und allen <strong>Interviewteilnehmer:innen</strong> sowie den <strong>Personen</strong>, die an meiner <strong>Umfrage</strong> teilgenommen haben.</li></ul></div></div><div class="grid"><div id="w-node-c7f8b663-c5c6-6980-f182-374b1210ef81-8804ed12" class="lauftext no-bottom-margin no-top-margin"><h2 class="font-400-l">Credits</h2><ul role="list" class="list"><li class="font-basic-text font-basic-text-list">Der grösste Teil der Fotos sind von Unsplash<strong><br></strong></li><li class="font-basic-text font-basic-text-list"><a href="https://www.atelier-perisset.ch/" target="_blank" class="link"><strong>Boris Périsset<br></strong></a>Dozent</li><li class="font-basic-text font-basic-text-list"><a href="https://www.tavolata.ch/kontakt" target="_blank" class="link"><strong>Daniela Specht</strong></a> <br>vom Migros Tavolata NetzwerkInterviewpartnerin</li><li class="font-basic-text font-basic-text-list">Und allen <strong>Interviewteilnehmer:innen</strong> sowie den <strong>Personen</strong>, die an meiner <strong>Umfrage</strong> teilgenommen haben.</li></ul></div></div></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=628f2af448ea6a315404ed11" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="js/webflow.js" type="text/javascript"></script><!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] --></body></html>
+}</script>
+        </a>
+      </div>
+      <div class="button-wrapper">
+        <a href="https://drive.google.com/drive/folders/1lZoiZxDb3YEv5VoB0j9XBVsTRmiSBalG?usp=sharing" target="_blank" class="button w-button">Design System herunterladen</a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_53ed8d3f-9abe-433e-3689-1ce015c5a780-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">High-Fidelity-Prototyp Testing</h2>
+          <div class="font-basic-text">Um Funktionalität und Nutzerfreundlichkeit meines High-Fidelity-Prototyps zu prüfen, führte ich ein weiteres Usability Testing durch, bei dem die Testpersonen 7 Aufgaben lösen konnten. Das Testing ergab, dass die User Flows verstanden wurden, bei den einen oder anderen Elementen jedoch noch etwas Feinschliff nötig war. Die entstandenen Probleme sowie die erarbeiteten Lösungen zeige ich im Folgenden auf.</div>
+        </div>
+      </div>
+    </div>
+    <div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+      <div class="w-slider-mask">
+        <div class="slide-7 w-slide"></div>
+        <div class="slide-8 w-slide"></div>
+        <div class="slide-9 w-slide"></div>
+        <div class="slide-10 w-slide"></div>
+        <div class="slide-11 w-slide"></div>
+      </div>
+      <div class="w-slider-arrow-left">
+        <div class="slider-icon w-icon-slider-left"></div>
+      </div>
+      <div class="w-slider-arrow-right">
+        <div class="slider-icon w-icon-slider-right"></div>
+      </div>
+      <div class="w-slider-nav w-round"></div>
+    </div>
+    <div class="container-margin">
+      <div class="grid">
+        <div id="w-node-e3b9807c-89d0-2a99-b618-173f065c2f6a-ef2c6624" class="lauftext no-top-margin">
+          <div class="font-basic-text">Ich erhielt als Feedback, dass das Onboarding mit dem Erstellen eines Profils (Konto erstellen, Fotos hinzufügen, Interessen angeben) eher viel Zeit in Anspruch nehme für das, dass User:innen die App noch nicht kennen. Ich entschied mich deswegen, das Profilerstellen aus dem Onboarding durch ein Abfragen der Tavolata-Präferenzen des/der User:in (wann, wie viele Personen, Küche, ...) zu ersetzen. Ein Profil muss aber trotzdem erstellt werden, sobald User:innen eine Tavolata buchen möchten. Wenn User:innen ihre Präferenzen bereits angegeben haben und die App erkunden konnten, sind sie eher dazu bereit, ein Profil zu erstellen. </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="05-tavolata-app" class="section">
+    <div class="container kapitel-hero centered">
+      <div class="container">
+        <h2 class="font-400-l centered regular white no-top-margin">Kapitel 5</h2>
+        <h2 class="font-600-xxl no-margin white">Tavolata App</h2>
+      </div><img src="images/essen.svg" loading="eager" alt="" class="image-section-hero">
+    </div>
+    <div class="container-margin">
+      <div class="grid margin-top">
+        <div id="w-node-_08b1abb0-2d0d-7b51-ceec-f6f9a5cc5bd5-ef2c6624" class="container flex top"><img src="images/app-icon.svg" loading="eager" id="w-node-_582eb660-d9af-f2bf-0e04-368ce86ef82b-ef2c6624" alt="" class="image-horizontal _10em">
+          <div id="w-node-_9ad42d47-2d3e-ea82-fa7e-2d3d4e27156f-ef2c6624" class="hero padding">
+            <h2 class="font-hero-title">Tavolata – Gemeinsam geniessen</h2>
+            <h6 class="font-lead left-aligned">Geniesse die Vielfalt der Kulinarik gemeinsam mit sympathischen Menschen und knüpfe neue Kontakte – mit der Tavolata App.</h6>
+          </div>
+        </div>
+      </div>
+      <div class="grid margin-top">
+        <div id="w-node-f7debd43-34d4-e683-cd11-451ad695484d-ef2c6624" class="container-text">
+          <h2 class="font-600-xxl left-aligned orange">Finde eine Tavolata</h2>
+          <div class="font-basic-text">Entdecke neue Restaurants in deiner Umgebung und komme in den Genuss der Tavolata-Kultur. Finde die zu dir passende Tavolata durch vielfältige Filtermöglichkeiten.</div>
+        </div>
+        <div data-poster-url="videos/01-finden-cropped-poster-00001.jpg" data-video-urls="videos/01-finden-cropped-transcode.mp4,videos/01-finden-cropped-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" id="w-node-c7562238-6ba5-05c0-5686-17facd406535-ef2c6624" class="background-video screen-recordings w-background-video w-background-video-atom"><video id="c7562238-6ba5-05c0-5686-17facd406535-video" autoplay="" loop="" style="background-image:url(&quot;videos/01-finden-cropped-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+            <source src="videos/01-finden-cropped-transcode.mp4" data-wf-ignore="true">
+            <source src="videos/01-finden-cropped-transcode.webm" data-wf-ignore="true">
+          </video><noscript>
+            <style>
+  [data-wf-bgvideo-fallback-img] {
+    display: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    [data-wf-bgvideo-fallback-img] {
+      position: absolute;
+      z-index: -100;
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }</style><img data-wf-bgvideo-fallback-img="true" src="documents/01-finden-cropped.mp4" alt="">
+          </noscript>
+          <div aria-live="polite"><button type="button" data-w-bg-video-control="true" aria-controls="c7562238-6ba5-05c0-5686-17facd406535-video" class="w-backgroundvideo-backgroundvideoplaypausebutton w-background-video--control"><span><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg" alt="Pause video"></span><span hidden=""><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg" alt="Play video"></span></button></div>
+        </div>
+      </div>
+      <div class="grid margin-top">
+        <div id="w-node-fdcc5be6-2db3-e56f-fab1-c108b1cde714-ef2c6624" class="container-text">
+          <h2 class="font-600-xxl left-aligned orange">Knüpfe neue Kontakte</h2>
+          <div class="font-basic-text">Ob du gerade umgezogen bist oder einfach nicht gerne allein isst, bei Tavolata lernst du interessante Leute ausserhalb deines Umfelds kennen. Schaue schon im Voraus, wer mir dir zusammen am Tisch sitzen wird.</div>
+        </div>
+        <div data-poster-url="videos/02-teilnehmerinnen-cropped-poster-00001.jpg" data-video-urls="videos/02-teilnehmerinnen-cropped-transcode.mp4,videos/02-teilnehmerinnen-cropped-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" id="w-node-_86c2d47a-e53f-6e6b-a6af-70e47cd05e11-ef2c6624" class="background-video screen-recordings w-background-video w-background-video-atom"><video id="86c2d47a-e53f-6e6b-a6af-70e47cd05e11-video" autoplay="" loop="" style="background-image:url(&quot;videos/02-teilnehmerinnen-cropped-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+            <source src="videos/02-teilnehmerinnen-cropped-transcode.mp4" data-wf-ignore="true">
+            <source src="videos/02-teilnehmerinnen-cropped-transcode.webm" data-wf-ignore="true">
+          </video><noscript>
+            <style>
+  [data-wf-bgvideo-fallback-img] {
+    display: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    [data-wf-bgvideo-fallback-img] {
+      position: absolute;
+      z-index: -100;
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }</style><img data-wf-bgvideo-fallback-img="true" src="documents/02-teilnehmerinnen-cropped.mp4" alt="">
+          </noscript>
+          <div aria-live="polite"><button type="button" data-w-bg-video-control="true" aria-controls="86c2d47a-e53f-6e6b-a6af-70e47cd05e11-video" class="w-backgroundvideo-backgroundvideoplaypausebutton w-background-video--control"><span><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg" alt="Pause video"></span><span hidden=""><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg" alt="Play video"></span></button></div>
+        </div>
+      </div>
+      <div class="grid margin-top">
+        <div id="w-node-dad8a81e-4088-4d63-afde-438b8f9b69db-ef2c6624" class="container-text">
+          <h2 class="font-600-xxl left-aligned orange">Buche und zahle unkompliziert</h2>
+          <div class="font-basic-text">Buche unkompliziert, zahle mit deiner bevorzugten Zahlungsmethode und deinem nächsten Tavolata-Abend steht nichts mehr im Weg.</div>
+        </div>
+        <div data-poster-url="videos/03-buchen-cropped-poster-00001.jpg" data-video-urls="videos/03-buchen-cropped-transcode.mp4,videos/03-buchen-cropped-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" id="w-node-_271a131c-15dc-2a15-7981-ebe8d30c3acb-ef2c6624" class="background-video screen-recordings w-background-video w-background-video-atom"><video id="271a131c-15dc-2a15-7981-ebe8d30c3acb-video" autoplay="" loop="" style="background-image:url(&quot;videos/03-buchen-cropped-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+            <source src="videos/03-buchen-cropped-transcode.mp4" data-wf-ignore="true">
+            <source src="videos/03-buchen-cropped-transcode.webm" data-wf-ignore="true">
+          </video><noscript>
+            <style>
+  [data-wf-bgvideo-fallback-img] {
+    display: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    [data-wf-bgvideo-fallback-img] {
+      position: absolute;
+      z-index: -100;
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }</style><img data-wf-bgvideo-fallback-img="true" src="documents/03-buchen-cropped.mp4" alt="">
+          </noscript>
+          <div aria-live="polite"><button type="button" data-w-bg-video-control="true" aria-controls="271a131c-15dc-2a15-7981-ebe8d30c3acb-video" class="w-backgroundvideo-backgroundvideoplaypausebutton w-background-video--control"><span><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg" alt="Pause video"></span><span hidden=""><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg" alt="Play video"></span></button></div>
+        </div>
+      </div>
+      <div class="grid margin-top">
+        <div id="w-node-f958f08b-95ec-40d9-f96a-8d9385dffd4f-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-600-xxl left-aligned orange">Finale User Flows</h2>
+          <div class="font-basic-text">Der finale Prototyp umfasst die User Journey vom Onboarding, zum Suchen und Buchen einer Tavolata bis zum Verwalten des User:innen-Profils. </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-_55215c96-cfc8-2df6-b79f-e57b6b279700-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-500-xl">Onboarding</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-_946825b4-e269-6912-ee7f-b30a855f7f11-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/onboarding.jpg" loading="eager" alt="Finaler User Flow Onboarding" class="image">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "onboarding.jpg",
+      "fileName": "onboarding.jpg",
+      "fileSize": 227486,
+      "height": 1044,
+      "url": "images/onboarding.jpg",
+      "width": 2838,
+      "caption": "Onboarding",
+      "type": "image"
+    }
+  ],
+  "group": "Finale User Flows"
+}</script>
+        </a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_2baf2e65-8493-ba9b-3377-31b084a92da1-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-500-xl">Tavolata suchen</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-d800df82-6de9-22c4-53eb-09494eda2924-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/tavolata-suchen.jpg" loading="eager" alt="Finaler User Flow Tavolata suchen" class="image">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "tavolata-suchen.jpg",
+      "fileName": "tavolata-suchen.jpg",
+      "fileSize": 231162,
+      "height": 1044,
+      "url": "images/tavolata-suchen.jpg",
+      "width": 2838,
+      "caption": "Tavolata suchen",
+      "type": "image"
+    }
+  ],
+  "group": "Finale User Flows"
+}</script>
+        </a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_9532ce08-d630-b459-2bfe-1938dcae5857-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-500-xl">Tavolata buchen</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-_8c9d595f-5b8d-3b35-c7e6-a853eaff8759-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/tavolata-buchen.jpg" loading="eager" alt="Finaler User Flow Tavolata buchen" class="image">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "tavolata-buchen.jpg",
+      "fileName": "tavolata-buchen.jpg",
+      "fileSize": 215231,
+      "height": 1044,
+      "url": "images/tavolata-buchen.jpg",
+      "width": 2838,
+      "caption": "Tavolata buchen",
+      "type": "image"
+    }
+  ],
+  "group": "Finale User Flows"
+}</script>
+        </a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_425a35ba-ecdb-095b-52bb-4e085b3a657f-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-500-xl">Tavolata stornieren</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-_4d52952f-c8db-3e3b-2d11-76c6642ddd30-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/tavolata-stornieren.jpg" loading="eager" alt="Finaler User Flow Tavolata stornieren" class="image">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "tavolata-stornieren.jpg",
+      "fileName": "tavolata-stornieren.jpg",
+      "fileSize": 211250,
+      "height": 1044,
+      "url": "images/tavolata-stornieren.jpg",
+      "width": 2838,
+      "caption": "Tavolata stornieren",
+      "type": "image"
+    }
+  ],
+  "group": "Finale User Flows"
+}</script>
+        </a>
+      </div>
+      <div class="grid">
+        <div id="w-node-_489935bd-c57a-42f9-56ec-8a504da483ca-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-500-xl">Profil erstellen</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-cfea724f-e0a6-5862-e585-6bdca2d6b382-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/profil-erstellen.jpg" loading="eager" alt="Finaler User Flow Profil erstellen" class="image">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "profil-erstellen.jpg",
+      "fileName": "profil-erstellen.jpg",
+      "fileSize": 196194,
+      "height": 1044,
+      "url": "images/profil-erstellen.jpg",
+      "width": 2838,
+      "caption": "Profil erstellen",
+      "type": "image"
+    }
+  ],
+  "group": "Finale User Flows"
+}</script>
+        </a>
+      </div>
+      <div class="grid">
+        <div id="w-node-f4b84817-f3d8-35a8-d8d3-2a667e6cf18d-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-500-xl">Profil verwalten</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <a href="#" id="w-node-d63b70e6-1bf2-71fa-d4d7-11bd866d8c51-ef2c6624" class="lightbox-link w-inline-block w-lightbox"><img src="images/profil-verwalten.jpg" loading="eager" alt="Finaler User Flow Profil verwalten" class="image">
+          <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "_id": "example_img",
+      "origFileName": "profil-verwalten.jpg",
+      "fileName": "profil-verwalten.jpg",
+      "fileSize": 193817,
+      "height": 1044,
+      "url": "images/profil-verwalten.jpg",
+      "width": 2838,
+      "caption": "Profil verwalten",
+      "type": "image"
+    }
+  ],
+  "group": "Finale User Flows"
+}</script>
+        </a>
+      </div>
+      <div class="grid margin-top">
+        <div id="w-node-_6af75344-db5e-df32-150b-8ca684a0cd98-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-600-xxl left-aligned orange">Interaktiver Prototyp</h2>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-f4460d73-6edf-ed50-36d4-d5cbb729c058-ef2c6624" class="iframe margin w-embed w-iframe">
+          <div class="figma-frame" style="left: 0; width: 100%; height: 60vh; position: relative;"><iframe src="https://www.figma.com/embed?page-id=227%3A48343&node-id=250%3A56481&viewport=-2758%2C-2357%2C0.34&starting-point-node-id=250%3A56508&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBbTcbAa9KErCmAzq4SWx7n%2FDIPLOMARBEIT---Tavolata%3Fpage-id%3D227%253A48343%26node-id%3D250%253A56481%26viewport%3D-2758%252C-2357%252C0.34%26starting-point-node-id%3D250%253A56508%26scaling%3Dscale-down&embed_host=iframely" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen=""></iframe></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="06-about" class="section">
+    <div class="container kapitel-hero centered">
+      <div class="container">
+        <h2 class="font-400-l centered regular white no-top-margin">Kapitel 6</h2>
+        <h2 class="font-600-xxl no-margin white">About</h2>
+      </div><img src="images/thanks.svg" loading="eager" alt="" class="image-section-hero">
+    </div>
+    <div class="container-margin">
+      <div class="grid">
+        <div id="w-node-_4b8f6da5-e185-6307-5a17-159705bf654d-ef2c6624" class="lauftext no-bottom-margin">
+          <h2 class="font-400-l">Danksagung</h2>
+          <div class="font-basic-text">Ich möchte mich an dieser Stelle bei allen bedanken, die mich während der Entstehung dieser Diplomarbeit unterstützt haben.</div>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list">
+              <a href="http://mscherrerkast.ch/" target="_blank" class="link"><strong>Michael Scherrer-Kast</strong></a><strong><br></strong>Mentor
+            </li>
+            <li class="font-basic-text font-basic-text-list">
+              <a href="https://www.atelier-perisset.ch/" target="_blank" class="link"><strong>Boris Périsset<br></strong></a>Dozent
+            </li>
+            <li class="font-basic-text font-basic-text-list">
+              <a href="https://www.tavolata.ch/kontakt" target="_blank" class="link"><strong>Daniela Specht</strong></a> <br>Netzwerk Tavolata Migros-Kulturprozent, Interviewpartnerin
+            </li>
+            <li class="font-basic-text font-basic-text-list">Und allen <strong>Interviewteilnehmer:innen</strong> sowie den <strong>Personen</strong>, die an meiner Umfrage teilgenommen haben.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid">
+        <div id="w-node-c7f8b663-c5c6-6980-f182-374b1210ef81-ef2c6624" class="lauftext no-bottom-margin no-top-margin">
+          <h2 class="font-400-l">Credits</h2>
+          <ul role="list" class="list">
+            <li class="font-basic-text font-basic-text-list"><strong>Bilder</strong><br>Die Bilder sind von mir, gekauft auf <a href="https://www.shutterstock.com/de/explore/switzerland-stock-assets-0222?kw=shutterstock&amp;c3apidt=p15459835006&amp;gclid=CjwKCAjwv-GUBhAzEiwASUMm4mJ2cU5TXGEQhaKIUY4__1uZAiyg1UhmDYEwazdhovZbLy3CZXdXaBoC8ncQAvD_BwE&amp;gclsrc=aw.ds" target="_blank" class="link">Shutterstock</a> oder lizenzfrei heruntergeladen auf <a href="https://unsplash.com/s/photos/book" target="_blank" class="link">Unsplash</a><strong><br></strong></li>
+            <li class="font-basic-text font-basic-text-list"><strong>Illustrationen und Icons</strong><br>Alle Illustrationen und Icons sind von <a href="https://www.streamlinehq.com/" target="_blank" class="link">Streamline</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="footer">
+    <div class="container-margin flex stretch">
+      <div class="container margin-right">
+        <div class="font-basic-text-small width-auto white">
+          <a href="https://nina-diem-portfolio.webflow.io/" target="_blank" class="link white">Nina Diem</a><strong><br>‍</strong>
+          <a href="https://sfgz.ch/" target="_blank" class="link white">Schule für Gestaltung Zürich</a> <br>2022 <strong>·</strong>
+          <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" class="link white">CC BY-NC 4.0</a>
+        </div>
+      </div>
+      <a href="#top" class="container flex horizontal w-inline-block">
+        <div class="font-basic-text-small width-auto white">Nach oben</div><img src="images/arrow-up.svg" loading="lazy" data-w-id="74bebb2d-803c-95d5-a01e-4847f1447ebb" alt="" class="image-vertical margin">
+      </a>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=628f2af448ea6a315404ed11" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
